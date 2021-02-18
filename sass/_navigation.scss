@@ -1,0 +1,18 @@
+@import "./variable";
+
+.navigation {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  background-color: $bg-content-color;
+}
+
+.navigation__list {
+  display: flex;
+  justify-content: space-between;
+}
+
+.navigation__link {
+  color: $title-color;
+}
