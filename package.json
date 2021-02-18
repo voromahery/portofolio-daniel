@@ -1,0 +1,17 @@
+{
+  "name": "portofolio-daniel",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "node-sass": "^5.0.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "scss": "node-sass sass -o webroot/css",
+    "scss:watch": "npm run scss && node-sass sass -w -o webroot/css",
+    "start": "npm run scss:watch"
+  },
+  "author": "",
+  "license": "ISC"
+}
