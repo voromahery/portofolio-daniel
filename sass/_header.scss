@@ -19,10 +19,7 @@
 }
 
 .number,
-.small__heading {
-  color: $secondary-color;
-}
-
+.small__heading,
 .header__article--skills {
   color: $primary-color;
 }
@@ -35,6 +32,13 @@
   color: $body-color;
 }
 
+.header__article--button,
+.header__article--button:hover,
+.header__article--button::before,
+.header__article--button:hover::before {
+  transition: all ease 0.2s;
+}
+
 .header__article--button {
   color: $bg-color;
   padding-left: 16px;
@@ -43,4 +47,26 @@
   padding-bottom: 8px;
   border: none;
   font-weight: 600;
+  position: relative;
+}
+
+.header__article--button::before {
+  content: " ";
+  z-index: -1;
+  border: 1px solid $title-color;
+  position: absolute;
+  bottom: -3px;
+  right: -4px;
+  width: 100%;
+  height: 100%;
+}
+
+.header__article--button:hover {
+  color: $primary-color;
+}
+
+.header__article--button:hover::before {
+  border: 1px solid $primary-color;
+  bottom: -5px;
+  right: -6px;
 }

@@ -13,6 +13,12 @@ ul {
 a {
   text-decoration: none; }
 
+img {
+  width: 100%; }
+
+button, a {
+  cursor: pointer; }
+
 .masthead {
   background-color: #252839;
   display: flex;
@@ -29,9 +35,7 @@ a {
   color: #fff; }
 
 .number,
-.small__heading {
-  color: #f18731; }
-
+.small__heading,
 .header__article--skills {
   color: #f1b631; }
 
@@ -41,6 +45,12 @@ a {
 .header__article--paragraph {
   color: #ced8de; }
 
+.header__article--button,
+.header__article--button:hover,
+.header__article--button::before,
+.header__article--button:hover::before {
+  transition: all ease 0.2s; }
+
 .header__article--button {
   color: #252839;
   padding-left: 16px;
@@ -48,7 +58,26 @@ a {
   padding-top: 8px;
   padding-bottom: 8px;
   border: none;
-  font-weight: 600; }
+  font-weight: 600;
+  position: relative; }
+
+.header__article--button::before {
+  content: " ";
+  z-index: -1;
+  border: 1px solid #fff;
+  position: absolute;
+  bottom: -3px;
+  right: -4px;
+  width: 100%;
+  height: 100%; }
+
+.header__article--button:hover {
+  color: #f1b631; }
+
+.header__article--button:hover::before {
+  border: 1px solid #f1b631;
+  bottom: -5px;
+  right: -6px; }
 
 .navigation {
   position: fixed;
@@ -63,3 +92,27 @@ a {
 
 .navigation__link {
   color: #fff; }
+
+.about-me__title,
+.about-me__article--title {
+  color: #fff; }
+
+.image__wrapper {
+  position: relative; }
+
+.image__wrapper::before {
+  content: "";
+  position: absolute;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+  bottom: -3px;
+  right: -4px;
+  border: 1px solid #f1b631; }
+
+.about-me__article--paragraph {
+  color: #ced8de; }
+
+.skills__list {
+  display: flex;
+  flex-direction: row; }
