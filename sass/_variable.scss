@@ -8,5 +8,13 @@ $secondary-color: #f18731;
 $disabled-color: #888;
 
 // Path
+$image-path: "../images";
 
-$image-path: "../images"
+//Mixins
+@mixin small-line {
+    content: "";
+    background-color: #f1b631;
+    position: absolute;
+    width: 30px;
+    height: 2px;
+}

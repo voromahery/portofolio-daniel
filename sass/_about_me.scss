@@ -36,24 +36,37 @@
 }
 
 .about-me__title::before {
-  content: "";
-  background-color: $primary-color;
-  position: absolute;
   top: -30px;
-  left: 0;
-  width: 30px;
-  height: 2px;
+    left: 0;
 }
 
-// .about-me__article--title {
+.about-me__title::before,
+.about-me__article--title::before {
+  @include small-line;
+}
 
-// }
+.about-me__article--title {
+  position: relative;
+  padding-top: 24px;
+  margin-top: 42.5px;
+}
 
-.about-me__article--paragraph {
+.about-me__article--paragraph,
+.skills__list--item {
   color: $body-color;
+}
+
+.about-me__article--title::before {
+  top: 0;
+}
+
+.about-me__article{
+  padding-top: 42.5px;
+  padding-top: 42.5px;;
 }
 
 .skills__list {
   display: flex;
   flex-direction: row;
+  font-size: 13.6px;
 }
