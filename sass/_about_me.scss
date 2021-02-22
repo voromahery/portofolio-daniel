@@ -37,7 +37,7 @@
 
 .about-me__title::before {
   top: -30px;
-    left: 0;
+  left: 0;
 }
 
 .about-me__title::before,
@@ -60,13 +60,31 @@
   top: 0;
 }
 
-.about-me__article{
+.about-me__article {
   padding-top: 42.5px;
-  padding-top: 42.5px;;
+  padding-top: 42.5px;
+}
+
+.skills__list,
+.skills__list--item {
+  display: flex;
+  flex-direction: row;
 }
 
 .skills__list {
-  display: flex;
-  flex-direction: row;
+  justify-content: space-between;
   font-size: 13.6px;
+}
+
+.skills__list--item {
+  gap: 4.25px;
+}
+
+.skills__list--item::before {
+  content: "";
+  align-items: center;
+  background-image: url("#{$image-path}/arrow.svg");
+  background-repeat: no-repeat;
+  width: 6.8px;
+  height: 13.5px;
 }
