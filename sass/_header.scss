@@ -70,3 +70,16 @@
   bottom: -5px;
   right: -6px;
 }
+
+.social_media__list--item {
+  text-indent: -9999px;
+}
+
+.github {
+  background-image: url("#{$image-path}/github-icon.svg");
+  background-position: right center;
+  background-repeat: no-repeat;
+  width: 32px;
+  height: max-content;
+  display: block;
+}
