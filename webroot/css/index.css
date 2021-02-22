@@ -10,7 +10,7 @@ ul {
   padding: 0;
   margin: 0; }
 
-a {
+a, abbr[title] {
   text-decoration: none; }
 
 img {
