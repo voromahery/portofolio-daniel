@@ -7,6 +7,8 @@
   left: 0;
   width: 100%;
   background-color: $bg-content-color;
+  padding-top: 8px;
+  padding-bottom: 8px;
 }
 
 .navigation__list {
@@ -16,4 +18,14 @@
 
 .navigation__link {
   color: $title-color;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 3px;
+  font-size: 13.6px;
 }
+
+.navigation__icon {
+  max-width: 22px;
+  max-height: 15px;
+} 
