@@ -28,4 +28,19 @@
 .navigation__icon {
   max-width: 22px;
   max-height: 15px;
-} 
+}
+
+@media (min-width: 650px) {
+  .navigation {
+    position: unset;
+    z-index: unset;
+    width: 100%;
+    background-color: unset;
+    padding-top: 0;
+    padding-bottom: 0;
+  }
+
+  .navigation__icon {
+    display: none;
+  }
+}
