@@ -23,6 +23,11 @@
   color: $primary-color;
 }
 
+.features__image {
+  max-width: max-content;
+  height: 34px;
+}
+
 .section__features--paragraph,
 .features__article {
   color: $body-color;

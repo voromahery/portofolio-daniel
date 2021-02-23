@@ -224,6 +224,10 @@ button, a {
 .section__features--heading::first-letter {
   color: #f1b631; }
 
+.features__image {
+  max-width: max-content;
+  height: 34px; }
+
 .section__features--paragraph,
 .features__article {
   color: #ced8de; }
