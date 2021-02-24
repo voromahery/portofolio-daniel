@@ -1,0 +1,52 @@
+@import "./variable";
+
+.section__projects--wrapper,
+.project__link {
+  color: $body-color;
+}
+
+.projects__title {
+  position: relative;
+  color: $title-color;
+  font-size: 27.25px;
+}
+
+.projects__title::before {
+  content: "";
+  background-color: #f1b631;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30px;
+  height: 2px;
+}
+
+.section__projects--title {
+  @include title;
+}
+
+.projects__description,
+.skills__list {
+  font-size: 13.6px;
+}
+
+.projects__description {
+  background-color: $bg-content-color;
+  padding: 10px;
+  border-radius: 8px;
+}
+
+.projects__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 17px;
+}
+
+// .code__link{
+
+// }
+
+// .demo__link {
+
+// }

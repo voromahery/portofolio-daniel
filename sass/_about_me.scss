@@ -47,9 +47,7 @@
 }
 
 .about-me__article--title {
-  position: relative;
-  padding-top: 24px;
-  margin-top: 42.5px;
+  @include title;
 }
 
 .about-me__article--paragraph,

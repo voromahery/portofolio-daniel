@@ -170,6 +170,7 @@ button, a {
   height: 2px; }
 
 .about-me__article--title {
+  font-size: 24px;
   position: relative;
   padding-top: 24px;
   margin-top: 42.5px; }
@@ -218,8 +219,9 @@ button, a {
   border-radius: 8px;
   padding: 17px; }
 
-.section__features--heading {
-  color: #ffffff; }
+.section__features--heading,
+.section__projects--title {
+  color: #fff; }
 
 .section__features--heading::first-letter {
   color: #f1b631; }
@@ -251,11 +253,14 @@ button, a {
   margin-top: 17px;
   margin-bottom: 17px; }
 
-.section__features--heading {
+.section__projects--title {
   font-size: 24px;
   position: relative;
   padding-top: 24px;
   margin-top: 42.5px; }
+
+.section__projects--title::first-letter {
+  color: #f1b631; }
 
 .section__features--heading::before {
   content: "";
@@ -264,3 +269,42 @@ button, a {
   width: 30px;
   height: 2px;
   top: 0; }
+
+.section__projects--wrapper,
+.project__link {
+  color: #ced8de; }
+
+.projects__title {
+  position: relative;
+  color: #fff;
+  font-size: 27.25px; }
+
+.projects__title::before {
+  content: "";
+  background-color: #f1b631;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 30px;
+  height: 2px; }
+
+.section__projects--title {
+  font-size: 24px;
+  position: relative;
+  padding-top: 24px;
+  margin-top: 42.5px; }
+
+.projects__description,
+.skills__list {
+  font-size: 13.6px; }
+
+.projects__description {
+  background-color: #1b1d2a;
+  padding: 10px;
+  border-radius: 8px; }
+
+.projects__list {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  gap: 17px; }

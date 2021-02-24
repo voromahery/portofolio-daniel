@@ -9,7 +9,7 @@ const works = [
     link: "https://voromahery.github.io/front-end-finals/",
     code: "https://github.com/voromahery/front-end-finals",
     date: "dd",
-    skill: "CSS",
+    skill: ["Html5", "Sass", "Css3"],
   },
   {
     title: "Edie home page",
@@ -20,16 +20,18 @@ const works = [
     link: "https://edie-homepage-daniel.netlify.app/",
     code: "https://github.com/voromahery/edie-homepage",
     date: "19/11/2020",
-    skill: "CSS",
+    skill: ["Html5", "Sass", "Css3"],
   },
   {
     title: "Birthday App",
-    description: "This is a week project I made when I first learned vanilla javascript",
+    description:
+      "This is a week project I made when I first learned vanilla javascript",
     screenshot: "./images/birthday-app.webp",
-    figma:"",
+    figma: "",
     link: "https://birthday-app-daniel.netlify.app/",
+    code: "https://github.com/voromahery/birthday-app",
     date: "11/12/2020",
-    skill: "Vanilla Javascript"
+    skill: ["Html5", "Css3", "Javascript"],
   },
   {
     title: "Country quiz",
@@ -40,44 +42,55 @@ const works = [
     link: "https://country-quiz-daniel.netlify.app/",
     code: "https://github.com/voromahery/country-quiz",
     date: "12/11/2020",
-    skill: "react",
+    skill: ["Css3", "React"],
   },
   {
     title: "OnjaBook",
-    description: "Simple clone of facebook in order to learn about reducer in react.",
+    description:
+      "Simple clone of facebook in order to learn about reducer in react.",
     screenshot: "./images/onjabook.webp",
-    figma:"",
+    figma: "",
     link: "https://onjabook-daniel.netlify.app/",
     date: "05/12/2020",
-    skill: "react"
-  }
+    skill: ["Css3", "React"],
+  },
 ];
 
 console.log(works);
-const section = document.querySelector('.section__projects');
+const section = document.querySelector(".section__projects");
 
 function myPortofolio() {
-    const myHtml = works.map(item => `
-    <section class="container">
-            <article>
-                <h2>${item.title}</h2>
-                <p class="description">${item.description}</p>
-                <p><img src="${item.screenshot}" alt=""></p>
-            </article>
-            <div class="link-to-design">
-            <p>
-                <a
-                    href="${item.figma}">Figma
-                </a>
-            </p>
-            <p>
-                <a href="${item.link}">${item.title}</a>
-            </p>
-            </div>
-            <span>${item.date}</span>
-        </section>
-        `).join('');
+  const myHtml = works
+    .map((item) => {
+      const skills = item.skill
+        .map((item) => `<span class="skills__list--item">${item}</span>`)
+        .join("");
 
-    section.innerHTML = myHtml;
+      return `
+    <div class="section__projects--wrapper">
+            <article>
+            <img src="${item.screenshot}" class="projects__image" alt="">
+                <h2 class="projects__title">${item.title}</h2>
+                <p class="projects__description">${item.description}</p>
+               <ul class="skills__list">
+               ${skills}
+               </ul>
+            </article>
+            <ul class="projects__list">
+            <li class="project__list--item">
+                <a
+                    href="${item.code}" class="project__link code__link">Code link
+                </a>
+            </li>
+            <li class="project__list--item">
+                <a href="${item.link}" class="project__link demo__link">Demo</a>
+            </li>
+            </ul>
+        </div>
+        `;
+    })
+    .join("");
+
+  section.insertAdjacentHTML("afterend", myHtml);
 }
 myPortofolio();
