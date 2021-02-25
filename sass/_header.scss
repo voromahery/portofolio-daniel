@@ -21,7 +21,8 @@
 }
 
 .masthead__title,
-.header__article--title {
+.header__article--title,
+.social__media--link {
   color: $title-color;
 }
 
@@ -71,8 +72,9 @@
   position: relative;
 }
 
-.header__article--button img {
-  max-width: 11.9px;
+.header__article--button svg {
+  width: 11.9px;
+  max-height: max-content;
 }
 
 .header__article--button::before {
@@ -96,15 +98,15 @@
   right: -6px;
 }
 
-.social_media__list--item {
-  text-indent: -9999px;
+.social_media__list--item svg {
+  width: 22.6px;
 }
 
-.github {
-  background-image: url("#{$image-path}/github-icon.svg");
-  background-position: right center;
-  background-repeat: no-repeat;
-  width: 32px;
-  height: max-content;
-  display: block;
-}
+// .github {
+//   background-image: url("#{$image-path}/github-icon.svg");
+//   background-position: right center;
+//   background-repeat: no-repeat;
+//   width: 32px;
+//   height: max-content;
+//   display: block;
+// }

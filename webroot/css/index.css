@@ -62,7 +62,8 @@ a {
   min-height: calc(100vh - 2 * 80px); }
 
 .masthead__title,
-.header__article--title {
+.header__article--title,
+.social__media--link {
   color: #fff; }
 
 .number,
@@ -105,8 +106,9 @@ a {
   font-weight: 600;
   position: relative; }
 
-.header__article--button img {
-  max-width: 11.9px; }
+.header__article--button svg {
+  width: 11.9px;
+  max-height: max-content; }
 
 .header__article--button::before {
   content: "";
@@ -126,16 +128,8 @@ a {
   bottom: -5px;
   right: -6px; }
 
-.social_media__list--item {
-  text-indent: -9999px; }
-
-.github {
-  background-image: url("../images/github-icon.svg");
-  background-position: right center;
-  background-repeat: no-repeat;
-  width: 32px;
-  height: max-content;
-  display: block; }
+.social_media__list--item svg {
+  width: 22.6px; }
 
 .navigation {
   position: fixed;
@@ -233,6 +227,7 @@ a {
   flex-direction: row; }
 
 .skills__list {
+  flex-wrap: wrap;
   gap: 17px;
   font-size: 13.6px; }
 
@@ -365,6 +360,10 @@ a {
   background-image: url("../images/demo-icon.svg"); }
 
 .more__projects a {
+  display: flex;
+  align-items: center;
+  max-width: max-content;
+  margin: auto;
   font-size: 13.6px;
   color: #f1b631;
   align-items: center;
@@ -375,9 +374,9 @@ a {
   text-decoration: underline;
   color: #f18731; }
 
-.more__projects img {
-  max-width: 11.9px;
-  height: 11.9px; }
+.more__projects svg {
+  width: 11.9px;
+  max-height: max-content; }
 
 .section__contact {
   margin-top: 60px;
