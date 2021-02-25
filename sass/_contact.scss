@@ -5,3 +5,49 @@
   padding-left: 20px;
   padding-right: 20px;
 }
+
+.contact__image {
+  max-height: 34px;
+  width: auto;
+  max-width: 34px;
+  align-self: flex-start;
+}
+
+.contact__item {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 12.75px;
+  margin-top: 34px;
+  margin-bottom: 34px;
+}
+
+.contact__paragraph,
+.contact__name {
+  font-size: 17px;
+}
+
+.contact__issue--link,
+.contact__name {
+  color: $primary-color;
+}
+
+.contact__name {
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.contact__detail,
+.contact__paragraph {
+  color: $body-color;
+}
+
+.contact__detail {
+  font-size: 12.75px;
+}
+
+.contact__line {
+  height: 1px;
+  width: 50%;
+  background-color: $body-color;
+}
