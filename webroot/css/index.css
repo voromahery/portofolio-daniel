@@ -27,8 +27,8 @@ button, a {
 
 .masthead,
 .header {
-  padding-left: 16px;
-  padding-right: 16px; }
+  padding-left: 21px;
+  padding-right: 21px; }
 
 .masthead__title,
 .header__article--title {
@@ -196,6 +196,7 @@ button, a {
   flex-direction: row; }
 
 .skills__list {
+  flex-wrap: wrap;
   gap: 17px;
   font-size: 13.6px; }
 
@@ -324,9 +325,14 @@ button, a {
   margin-top: 40px;
   margin-bottom: 40px; }
 
-.projects__list {
+.projects__list,
+.more__projects {
   display: flex;
-  flex-direction: row;
+  flex-direction: row; }
+
+.projects__list {
+  margin-top: 10px;
+  margin-bottom: 10px;
   justify-content: flex-end;
   gap: 17px; }
 
@@ -342,3 +348,18 @@ button, a {
 
 .demo__link {
   background-image: url("../images/demo-icon.svg"); }
+
+.more__projects a {
+  font-size: 13.6px;
+  color: #f1b631;
+  align-items: center;
+  gap: 4.25px; }
+
+.more__projects a:hover {
+  gap: 6.4px;
+  text-decoration: underline;
+  color: #f18731; }
+
+.more__projects img {
+  max-width: 11.9px;
+  height: 11.9px; }

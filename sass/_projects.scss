@@ -47,9 +47,15 @@
   margin-bottom: 40px;
 }
 
-.projects__list {
+.projects__list,
+.more__projects {
   display: flex;
   flex-direction: row;
+}
+
+.projects__list {
+  margin-top: 10px;
+  margin-bottom: 10px;
   justify-content: flex-end;
   gap: 17px;
 }
@@ -68,4 +74,22 @@
 
 .demo__link {
   background-image: url("#{$image-path}/demo-icon.svg");
+}
+
+.more__projects a {
+  font-size: 13.6px;
+  color: $primary-color;
+  align-items: center;
+  gap: 4.25px;
+}
+
+.more__projects a:hover {
+  gap: 6.4px;
+  text-decoration: underline;
+  color: $secondary-color;
+}
+
+.more__projects img {
+  max-width: 11.9px;
+  height: 11.9px;
 }
