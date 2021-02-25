@@ -177,19 +177,6 @@ button, a {
   right: -10px;
   border: 2px solid #f1b631; }
 
-.about-me__title {
-  position: relative;
-  font-size: 30.64px;
-  position: relative;
-  padding-top: 24px;
-  margin-top: 42.5px;
-  padding-top: 24px;
-  margin-bottom: 0; }
-
-.about-me__title::first-letter {
-  color: #f1b631; }
-
-.about-me__title::before,
 .about-me__article--title::before {
   content: "";
   background-color: #f1b631;
@@ -197,10 +184,6 @@ button, a {
   left: 0;
   width: 30px;
   height: 2px; }
-
-.about-me__title::before {
-  top: 0;
-  left: 0; }
 
 .about-me__article--title {
   font-size: 27.23px; }
@@ -256,20 +239,6 @@ button, a {
   border-radius: 8px;
   padding: 17px; }
 
-.section__features--title {
-  position: relative;
-  font-size: 30.64px;
-  position: relative;
-  padding-top: 24px;
-  margin-top: 42.5px; }
-
-.section__features--title,
-.section__projects--title {
-  color: #fff; }
-
-.section__features--title::first-letter {
-  color: #f1b631; }
-
 .features__image {
   max-width: max-content;
   height: 34px; }
@@ -296,24 +265,6 @@ button, a {
 .features__paragraph {
   margin-top: 17px;
   margin-bottom: 17px; }
-
-.section__projects--title {
-  font-size: 30.64px;
-  position: relative;
-  padding-top: 24px;
-  margin-top: 42.5px; }
-
-.section__projects--title::first-letter {
-  color: #f1b631; }
-
-.section__features--title::before {
-  content: "";
-  background-color: #f1b631;
-  position: absolute;
-  left: 0;
-  width: 30px;
-  height: 2px;
-  top: 0; }
 
 .section__projects {
   margin-top: 60px;

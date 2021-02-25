@@ -28,25 +28,8 @@
   border: 2px solid $primary-color;
 }
 
-.about-me__title {
-  position: relative;
-  @include title;
-  padding-top: 24px;
-  margin-bottom: 0;
-}
-
-.about-me__title::first-letter {
-  color: $primary-color;
-}
-
-.about-me__title::before,
 .about-me__article--title::before {
   @include small-line;
-}
-
-.about-me__title::before {
-  top: 0;
-  left: 0;
 }
 
 .about-me__article--title {

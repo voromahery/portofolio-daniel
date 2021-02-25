@@ -4,10 +4,6 @@
   padding-left: 21px;
   padding-right: 21px;
   @include section-margin;
-  // margin-top: 80px;
-  // margin-bottom: 80px;
-  // padding-top: 45px;
-  // padding-bottom: 45px;
 }
 
 .features__article {
@@ -18,20 +14,6 @@
   border: 1px solid $body-color;
   border-radius: 8px;
   padding: 17px;
-}
-
-.section__features--title {
-  position: relative;
-  @include title;
-}
-
-.section__features--title,
-.section__projects--title {
-  color: $title-color;
-}
-
-.section__features--title::first-letter {
-  color: $primary-color;
 }
 
 .features__image {
@@ -65,17 +47,4 @@
 .features__paragraph {
   margin-top: 17px;
   margin-bottom: 17px;
-}
-
-.section__projects--title {
-  @include title;
-}
-
-.section__projects--title::first-letter {
-  color: $primary-color;
-}
-
-.section__features--title::before {
-  @include small-line;
-  top: 0;
 }
