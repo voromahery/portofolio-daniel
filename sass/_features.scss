@@ -1,8 +1,8 @@
 @import "./variable";
 
 .section__features {
-  padding-left: 16px;
-  padding-right: 16px;
+  padding-left: 21px;
+  padding-right: 21px;
 }
 
 .features__article {
@@ -15,12 +15,17 @@
   padding: 17px;
 }
 
-.section__features--heading,
+.section__features--title {
+  position: relative;
+  @include title;
+}
+
+.section__features--title,
 .section__projects--title {
   color: $title-color;
 }
 
-.section__features--heading::first-letter {
+.section__features--title::first-letter {
   color: $primary-color;
 }
 
@@ -65,7 +70,7 @@
   color: $primary-color;
 }
 
-.section__features--heading::before {
+.section__features--title::before {
   @include small-line;
   top: 0;
 }

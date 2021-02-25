@@ -15,12 +15,13 @@ $image-path: "../images";
   content: "";
   background-color: #f1b631;
   position: absolute;
+  left: 0;
   width: 30px;
   height: 2px;
 }
 
 @mixin title {
-  font-size: 24px;
+  font-size: 30.64px;
   position: relative;
   padding-top: 24px;
   margin-top: 42.5px;

@@ -1,9 +1,20 @@
 @import "./variable";
 
+.section__projects,
+.section__projects--wrapper {
+  padding-left: 21px;
+  padding-right: 21px;
+}
+
 .section__projects--wrapper,
 .project__link {
   color: $body-color;
 }
+
+// .projects {
+//   display: grid;
+//   grid-gap: 40px;
+// }
 
 .projects__title {
   position: relative;
@@ -12,13 +23,8 @@
 }
 
 .projects__title::before {
-  content: "";
-  background-color: #f1b631;
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 30px;
-  height: 2px;
+  @include small-line;
+  top: -20px;
 }
 
 .section__projects--title {
@@ -36,6 +42,11 @@
   border-radius: 8px;
 }
 
+.projects__image {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
 .projects__list {
   display: flex;
   flex-direction: row;
@@ -43,10 +54,18 @@
   gap: 17px;
 }
 
-// .code__link{
+.project__link {
+  text-indent: -9999px;
+  background-repeat: no-repeat;
+  width: 22.66px;
+  height: max-content;
+  display: block;
+}
 
-// }
+.code__link {
+  background-image: url("#{$image-path}/big-github-icon.svg");
+}
 
-// .demo__link {
-
-// }
+.demo__link {
+  background-image: url("#{$image-path}/demo-icon.svg");
+}

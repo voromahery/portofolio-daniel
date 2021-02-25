@@ -58,6 +58,7 @@ const works = [
 
 console.log(works);
 const section = document.querySelector(".section__projects");
+const projects = document.querySelector(".projects");
 
 function myPortofolio() {
   const myHtml = works

@@ -30,6 +30,7 @@
 
 .about-me__title {
   position: relative;
+  @include title;
 }
 
 .about-me__title::first-letter {
@@ -47,7 +48,7 @@
 }
 
 .about-me__article--title {
-  @include title;
+  font-size: 27.23px;
 }
 
 .about-me__article--paragraph,
