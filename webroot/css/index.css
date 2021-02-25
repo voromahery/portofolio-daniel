@@ -20,7 +20,7 @@ button, a {
   cursor: pointer; }
 
 .masthead {
-  background-color: #252839;
+  background-color: #1b1d2a;
   display: flex;
   align-items: center;
   justify-content: space-between; }
@@ -132,9 +132,9 @@ button, a {
 .section__about-me {
   padding-left: 16px;
   padding-right: 16px;
-  padding-top: 60px;
-  padding-bottom: 60px;
-  margin-bottom: 30px; }
+  margin-top: 60px;
+  margin-bottom: 60px;
+  padding-bottom: 30px; }
 
 .about-me__title,
 .about-me__article--title {
@@ -219,7 +219,10 @@ button, a {
 
 .section__features {
   padding-left: 21px;
-  padding-right: 21px; }
+  padding-right: 21px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  padding-bottom: 30px; }
 
 .features__article {
   display: flex;
@@ -288,6 +291,11 @@ button, a {
   width: 30px;
   height: 2px;
   top: 0; }
+
+.section__projects {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  padding-bottom: 30px; }
 
 .section__projects,
 .section__projects--wrapper {

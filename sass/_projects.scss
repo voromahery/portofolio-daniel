@@ -1,5 +1,9 @@
 @import "./variable";
 
+.section__projects {
+  @include section-margin;
+}
+
 .section__projects,
 .section__projects--wrapper {
   padding-left: 21px;

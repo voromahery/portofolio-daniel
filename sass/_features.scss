@@ -3,6 +3,7 @@
 .section__features {
   padding-left: 21px;
   padding-right: 21px;
+  @include section-margin;
   // margin-top: 80px;
   // margin-bottom: 80px;
   // padding-top: 45px;

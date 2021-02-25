@@ -26,3 +26,9 @@ $image-path: "../images";
   padding-top: 24px;
   margin-top: 42.5px;
 }
+
+@mixin section-margin {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  padding-bottom: 30px;
+}
