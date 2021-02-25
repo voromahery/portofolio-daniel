@@ -1,0 +1,81 @@
+@import "./variable";
+
+footer {
+  flex-direction: column;
+  background-color: $bg-content-color;
+  padding: 12px;
+  margin-bottom: 49px;
+}
+
+footer,
+.footer__list {
+  display: flex;
+  align-items: center;
+}
+
+footer * {
+  color: $body-color;
+  font-size: 13.6px;
+}
+
+.footer__list {
+  flex-direction: row;
+  gap: 17px;
+}
+
+.tools {
+  display: flex;
+  align-items: center;
+  margin-top: 13.6px;
+  margin-bottom: 13.6px;
+  height: 45.5px;
+  gap: 5px;
+}
+
+.tools__wrapper {
+  display: flex;
+  align-items: center;
+  height: 16px;
+  overflow: hidden;
+}
+
+@keyframes scroll-item {
+  0%,
+  10% {
+    transform: translateY(40%);
+  }
+
+  20%,
+  30% {
+    transform: translateY(20%);
+  }
+
+  40%,
+  50% {
+    transform: translateY(0%);
+  }
+
+  60%,
+  70% {
+    transform: translateY(-20%);
+  }
+
+  80%,
+  90%,
+  100% {
+    transform: translateY(-40%);
+  }
+}
+
+.tools span {
+  animation: scroll-item 8s;
+  animation-direction: alternate;
+  animation-iteration-count: infinite;
+  animation-timing-function: ease-in-out;
+}
+
+.tools span {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
