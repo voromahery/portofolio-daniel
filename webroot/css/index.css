@@ -19,6 +19,29 @@ img {
 button, a {
   cursor: pointer; }
 
+.title {
+  color: #fff;
+  position: relative;
+  font-size: 30.64px;
+  position: relative;
+  padding-top: 24px;
+  margin-top: 42.5px;
+  padding-top: 24px;
+  margin-bottom: 0; }
+
+.title::first-letter {
+  color: #f1b631; }
+
+.title::before {
+  content: "";
+  background-color: #f1b631;
+  position: absolute;
+  left: 0;
+  width: 30px;
+  height: 2px;
+  top: 0;
+  left: 0; }
+
 .masthead {
   background-color: #1b1d2a;
   display: flex;
@@ -380,6 +403,13 @@ button, a {
 .more__projects img {
   max-width: 11.9px;
   height: 11.9px; }
+
+.section__contact {
+  margin-top: 60px;
+  margin-bottom: 60px;
+  padding-bottom: 30px;
+  padding-left: 20px;
+  padding-right: 20px; }
 
 footer {
   flex-direction: column;

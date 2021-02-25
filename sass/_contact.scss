@@ -1,0 +1,7 @@
+@import "./variable";
+
+.section__contact {
+  @include section-margin;
+  padding-left: 20px;
+  padding-right: 20px;
+}

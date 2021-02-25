@@ -26,3 +26,21 @@ img {
 button, a {
   cursor: pointer;
 }
+
+.title {
+  color: $title-color;
+  position: relative;
+  @include title;
+  padding-top: 24px;
+  margin-bottom: 0;
+}
+
+.title::first-letter {
+  color: $primary-color;
+}
+
+.title::before {
+  @include small-line;
+  top: 0;
+  left: 0;
+}
