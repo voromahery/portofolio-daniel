@@ -23,6 +23,21 @@ footer * {
   gap: 17px;
 }
 
+.footer__link {
+    text-indent: -9999px;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+}
+
+.facebook {
+    background-image: url("#{$image-path}/facebook-icon.svg");
+    background-position: right center;
+    background-repeat: no-repeat;
+    height: max-content;
+    display: block;
+ }
+
 .tools {
   display: flex;
   align-items: center;
