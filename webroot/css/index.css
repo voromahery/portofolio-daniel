@@ -95,7 +95,7 @@ button, a {
   z-index: 1;
   bottom: 0;
   left: 0;
-  width: 100%;
+  width: -webkit-fill-available;
   background-color: #1b1d2a;
   padding-top: 8px;
   padding-bottom: 8px;
@@ -141,7 +141,8 @@ button, a {
   color: #fff; }
 
 .image__wrapper {
-  position: relative; }
+  position: relative;
+  margin-bottom: 40px; }
 
 .image__wrapper::before {
   content: "";
@@ -158,14 +159,12 @@ button, a {
   font-size: 30.64px;
   position: relative;
   padding-top: 24px;
-  margin-top: 42.5px; }
+  margin-top: 42.5px;
+  padding-top: 24px;
+  margin-bottom: 0; }
 
 .about-me__title::first-letter {
   color: #f1b631; }
-
-.about-me__title::before {
-  top: -30px;
-  left: 0; }
 
 .about-me__title::before,
 .about-me__article--title::before {
@@ -176,12 +175,20 @@ button, a {
   width: 30px;
   height: 2px; }
 
+.about-me__title::before {
+  top: 0;
+  left: 0; }
+
 .about-me__article--title {
   font-size: 27.23px; }
 
 .about-me__article--paragraph,
 .skills__list--item {
   color: #ced8de; }
+
+.about-me__article--title {
+  position: relative;
+  padding-top: 20px; }
 
 .about-me__article--title::before {
   top: 0; }
@@ -196,7 +203,6 @@ button, a {
   flex-direction: row; }
 
 .skills__list {
-  flex-wrap: wrap;
   gap: 17px;
   font-size: 13.6px; }
 
@@ -297,7 +303,8 @@ button, a {
   color: #fff;
   font-size: 27.25px; }
 
-.projects__title::before {
+.projects__title::before,
+.section__projects--title::before {
   content: "";
   background-color: #f1b631;
   position: absolute;
@@ -310,7 +317,9 @@ button, a {
   font-size: 30.64px;
   position: relative;
   padding-top: 24px;
-  margin-top: 42.5px; }
+  margin-top: 42.5px;
+  position: relative;
+  padding-top: 0; }
 
 .projects__description,
 .skills__list {

@@ -22,13 +22,16 @@
   font-size: 27.25px;
 }
 
-.projects__title::before {
+.projects__title::before,
+.section__projects--title::before {
   @include small-line;
   top: -20px;
 }
 
 .section__projects--title {
   @include title;
+  position: relative;
+  padding-top: 0;
 }
 
 .projects__description,
