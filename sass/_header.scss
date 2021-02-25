@@ -55,18 +55,28 @@
 }
 
 .header__article--button {
+  display: flex;
+  flex-direction: row;
+  gap: 4.25px;
   color: $bg-color;
-  padding-left: 16px;
-  padding-right: 16px;
-  padding-top: 8px;
-  padding-bottom: 8px;
+  font-size: 13.5px;
+  background-color: $title-color;
+  padding-left: 12.8px;
+  padding-right: 12.8px;
+  padding-top: 6.4px;
+  padding-bottom: 6.4px;
   border: none;
+  max-width: max-content;
   font-weight: 600;
   position: relative;
 }
 
+.header__article--button img {
+  max-width: 11.9px;
+}
+
 .header__article--button::before {
-  content: " ";
+  content: "";
   z-index: -1;
   border: 1px solid $title-color;
   position: absolute;

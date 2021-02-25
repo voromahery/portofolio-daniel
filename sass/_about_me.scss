@@ -67,12 +67,12 @@
 }
 
 .skills__list--item {
+  align-items: center;
   gap: 4.25px;
 }
 
 .skills__list--item::before {
   content: "";
-  align-items: center;
   background-image: url("#{$image-path}/arrow.svg");
   background-repeat: no-repeat;
   width: 6.8px;
