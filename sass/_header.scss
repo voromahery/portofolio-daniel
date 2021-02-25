@@ -13,6 +13,13 @@
   padding-right: 21px;
 }
 
+.header {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: calc(100vh - 2 * 80px);
+}
+
 .masthead__title,
 .header__article--title {
   color: $title-color;
@@ -24,12 +31,20 @@
   color: $primary-color;
 }
 
+.header__article--paragraph,
+.header__article--title {
+  margin-top: 0;
+}
+
 .header__article--title {
   font-size: 40px;
+  margin-bottom: 0;
 }
 
 .header__article--paragraph {
   color: $body-color;
+  font-size: 17px;
+  margin-bottom: 21.25px;
 }
 
 .header__article--button,

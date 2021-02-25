@@ -6,7 +6,7 @@ body {
 }
 
 * {
-  font-family: sans-serif;
+  font-family: "Poppins", sans-serif;
 }
 
 ul {
@@ -15,7 +15,8 @@ ul {
   margin: 0;
 }
 
-a,abbr[title] {
+a,
+abbr[title] {
   text-decoration: none;
 }
 
@@ -23,7 +24,8 @@ img {
   width: 100%;
 }
 
-button, a {
+button,
+a {
   cursor: pointer;
 }
 
