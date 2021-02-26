@@ -27,7 +27,11 @@
   font-size: 13.6px;
 }
 
-.navigation__icon {
+.navigation__link:hover {
+  color: $primary-color;
+} 
+
+.navigation svg {
   max-width: 22px;
   max-height: 15px;
 }
@@ -42,7 +46,7 @@
     padding-bottom: 0;
   }
 
-  .navigation__icon {
+  .navigation svg {
     display: none;
   }
 }

@@ -5,6 +5,8 @@ footer {
   background-color: $bg-content-color;
   padding: 12px;
   margin-bottom: 49px;
+  color: $body-color;
+  font-size: 13.6px;
 }
 
 footer,
@@ -13,30 +15,31 @@ footer,
   align-items: center;
 }
 
-footer * {
-  color: $body-color;
-  font-size: 13.6px;
-}
-
 .footer__list {
   flex-direction: row;
   gap: 17px;
 }
 
 .footer__link {
-    text-indent: -9999px;
-    background-size: contain;
-    width: 18px;
-    height: 18px;
+  color: $title-color;
 }
 
-.facebook {
-    background-image: url("#{$image-path}/facebook-icon.svg");
-    background-position: right center;
-    background-repeat: no-repeat;
-    height: max-content;
-    display: block;
- }
+.footer__link:hover {
+  color: $primary-color;
+}
+
+.footer__link svg {
+  width: 19px;
+  height: initial;
+}
+
+// .facebook {
+//   background-image: url("#{$image-path}/facebook-icon.svg");
+//   background-position: right center;
+//   background-repeat: no-repeat;
+//   height: max-content;
+//   display: block;
+// }
 
 .tools {
   display: flex;
@@ -94,4 +97,3 @@ footer * {
   align-items: center;
   flex-direction: column;
 }
-

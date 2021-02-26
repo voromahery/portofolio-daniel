@@ -156,7 +156,10 @@ a {
   gap: 3px;
   font-size: 13.6px; }
 
-.navigation__icon {
+.navigation__link:hover {
+  color: #f1b631; }
+
+.navigation svg {
   max-width: 22px;
   max-height: 15px; }
 
@@ -168,7 +171,7 @@ a {
     background-color: unset;
     padding-top: 0;
     padding-bottom: 0; }
-  .navigation__icon {
+  .navigation svg {
     display: none; } }
 
 .section__about-me {
@@ -428,33 +431,28 @@ footer {
   flex-direction: column;
   background-color: #1b1d2a;
   padding: 12px;
-  margin-bottom: 49px; }
+  margin-bottom: 49px;
+  color: #ced8de;
+  font-size: 13.6px; }
 
 footer,
 .footer__list {
   display: flex;
   align-items: center; }
 
-footer * {
-  color: #ced8de;
-  font-size: 13.6px; }
-
 .footer__list {
   flex-direction: row;
   gap: 17px; }
 
 .footer__link {
-  text-indent: -9999px;
-  background-size: contain;
-  width: 18px;
-  height: 18px; }
+  color: #fff; }
 
-.facebook {
-  background-image: url("../images/facebook-icon.svg");
-  background-position: right center;
-  background-repeat: no-repeat;
-  height: max-content;
-  display: block; }
+.footer__link:hover {
+  color: #f1b631; }
+
+.footer__link svg {
+  width: 19px;
+  height: initial; }
 
 .tools {
   display: flex;
