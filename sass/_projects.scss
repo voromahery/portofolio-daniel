@@ -15,11 +15,6 @@
   color: $body-color;
 }
 
-// .projects {
-//   display: grid;
-//   grid-gap: 40px;
-// }
-
 .projects__title {
   position: relative;
   color: $title-color;
@@ -64,38 +59,37 @@
   margin-top: 10px;
   margin-bottom: 10px;
   justify-content: flex-end;
-  gap: 17px;
 }
 
-.project__link {
-  text-indent: -9999px;
-  background-repeat: no-repeat;
+.projects__list svg {
+  margin-left: 8.5px;
+  margin-right: 8.5px;
+}
+
+.project__link svg {
   width: 22.66px;
-  height: max-content;
-  display: block;
-}
-
-.code__link {
-  background-image: url("#{$image-path}/big-github-icon.svg");
-}
-
-.demo__link {
-  background-image: url("#{$image-path}/demo-icon.svg");
+  height: 23px;
 }
 
 .more__projects a {
   display: flex;
   align-items: center;
   max-width: max-content;
-    margin: auto;
+  margin: auto;
   font-size: 13.6px;
   color: $primary-color;
   align-items: center;
-  gap: 4.25px;
+}
+
+.more__projects svg {
+  margin-left: 4.25px;
+}
+
+.more__projects:hover svg {
+  margin-left: 6.4px;
 }
 
 .more__projects a:hover {
-  gap: 6.4px;
   text-decoration: underline;
   color: $secondary-color;
 }
@@ -103,4 +97,8 @@
 .more__projects svg {
   width: 11.9px;
   max-height: max-content;
+}
+
+.project__link:hover {
+  color: $primary-color;
 }

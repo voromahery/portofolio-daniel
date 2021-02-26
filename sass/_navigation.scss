@@ -23,7 +23,6 @@
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 3px;
   font-size: 13.6px;
 }
 
@@ -32,6 +31,7 @@
 } 
 
 .navigation svg {
+  margin-bottom: 3px;
   max-width: 22px;
   max-height: 15px;
 }

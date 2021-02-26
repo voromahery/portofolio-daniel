@@ -58,7 +58,6 @@
 .header__article--button {
   display: flex;
   flex-direction: row;
-  gap: 4.25px;
   color: $bg-color;
   font-size: 13.5px;
   background-color: $title-color;
@@ -75,6 +74,7 @@
 .header__article--button svg {
   width: 11.9px;
   max-height: max-content;
+  margin-left: 4.25px;
 }
 
 .header__article--button::before {

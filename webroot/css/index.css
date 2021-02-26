@@ -93,7 +93,6 @@ a {
 .header__article--button {
   display: flex;
   flex-direction: row;
-  gap: 4.25px;
   color: #252839;
   font-size: 13.5px;
   background-color: #fff;
@@ -108,7 +107,8 @@ a {
 
 .header__article--button svg {
   width: 11.9px;
-  max-height: max-content; }
+  max-height: max-content;
+  margin-left: 4.25px; }
 
 .header__article--button::before {
   content: "";
@@ -153,13 +153,13 @@ a {
   display: flex;
   flex-direction: column;
   align-items: center;
-  gap: 3px;
   font-size: 13.6px; }
 
 .navigation__link:hover {
   color: #f1b631; }
 
 .navigation svg {
+  margin-bottom: 3px;
   max-width: 22px;
   max-height: 15px; }
 
@@ -232,19 +232,19 @@ a {
 
 .skills__list {
   flex-wrap: wrap;
-  gap: 17px;
   font-size: 13.6px; }
 
 .skills__list--item {
   align-items: center;
-  gap: 4.25px; }
+  margin-right: 17px; }
 
 .skills__list--item::before {
   content: "";
   background-image: url("../images/arrow.svg");
   background-repeat: no-repeat;
   width: 6.8px;
-  height: 13.5px; }
+  height: 13.5px;
+  margin-right: 4.25px; }
 
 .section__features {
   padding-left: 21px;
@@ -347,21 +347,15 @@ a {
 .projects__list {
   margin-top: 10px;
   margin-bottom: 10px;
-  justify-content: flex-end;
-  gap: 17px; }
+  justify-content: flex-end; }
 
-.project__link {
-  text-indent: -9999px;
-  background-repeat: no-repeat;
+.projects__list svg {
+  margin-left: 8.5px;
+  margin-right: 8.5px; }
+
+.project__link svg {
   width: 22.66px;
-  height: max-content;
-  display: block; }
-
-.code__link {
-  background-image: url("../images/big-github-icon.svg"); }
-
-.demo__link {
-  background-image: url("../images/demo-icon.svg"); }
+  height: 23px; }
 
 .more__projects a {
   display: flex;
@@ -370,17 +364,24 @@ a {
   margin: auto;
   font-size: 13.6px;
   color: #f1b631;
-  align-items: center;
-  gap: 4.25px; }
+  align-items: center; }
+
+.more__projects svg {
+  margin-left: 4.25px; }
+
+.more__projects:hover svg {
+  margin-left: 6.4px; }
 
 .more__projects a:hover {
-  gap: 6.4px;
   text-decoration: underline;
   color: #f18731; }
 
 .more__projects svg {
   width: 11.9px;
   max-height: max-content; }
+
+.project__link:hover {
+  color: #f1b631; }
 
 .section__contact {
   margin-top: 60px;
@@ -393,13 +394,13 @@ a {
   max-height: 34px;
   width: auto;
   max-width: 34px;
-  align-self: flex-start; }
+  margin-right: 12.75px;
+  align-self: center; }
 
 .contact__item {
   display: flex;
   flex-direction: row;
   align-items: center;
-  gap: 12.75px;
   margin-top: 34px;
   margin-bottom: 34px; }
 
