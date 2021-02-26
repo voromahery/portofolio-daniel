@@ -170,7 +170,14 @@ a {
     width: 100%;
     background-color: unset;
     padding-top: 0;
-    padding-bottom: 0; }
+    padding-bottom: 0;
+    padding-left: 15px;
+    padding-right: 15px; }
+  .navigation__list {
+    justify-content: unset; }
+  .navigation__list--item {
+    margin-left: 10px;
+    margin-right: 10px; }
   .navigation svg {
     display: none; } }
 
@@ -245,6 +252,16 @@ a {
   width: 6.8px;
   height: 13.5px;
   margin-right: 4.25px; }
+
+@media (min-width: 850px) {
+  .about-me__article {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start; }
+  .about-me__article--title {
+    margin-top: 0; }
+  .about-me__article--wrapper {
+    margin-left: 40px; } }
 
 .section__features {
   padding-left: 21px;

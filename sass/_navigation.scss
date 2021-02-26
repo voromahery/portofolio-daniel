@@ -28,7 +28,7 @@
 
 .navigation__link:hover {
   color: $primary-color;
-} 
+}
 
 .navigation svg {
   margin-bottom: 3px;
@@ -44,6 +44,17 @@
     background-color: unset;
     padding-top: 0;
     padding-bottom: 0;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .navigation__list {
+    justify-content: unset;
+  }
+
+  .navigation__list--item {
+    margin-left: 10px;
+    margin-right: 10px;
   }
 
   .navigation svg {

@@ -79,3 +79,19 @@
   height: 13.5px;
   margin-right: 4.25px;
 }
+
+@media (min-width: 850px) {
+  .about-me__article {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+  }
+
+  .about-me__article--title {
+    margin-top: 0;
+  }
+
+  .about-me__article--wrapper {
+    margin-left: 40px;
+  }
+}
