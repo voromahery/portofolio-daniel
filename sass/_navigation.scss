@@ -60,4 +60,24 @@
   .navigation svg {
     display: none;
   }
+
+  .navigation__link {
+    position: relative;
+  }
+
+  .navigation__link:hover::before {
+    right: 0;
+  }
+
+  .navigation__link::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 100%;
+    bottom: 0;
+    background: $primary-color;
+    height: 2px;
+    -webkit-transition: right 0.3s ease-out;
+    transition: right 0.3s ease-out;
+  }
 }
