@@ -44,6 +44,15 @@ a {
   top: 0;
   left: 0; }
 
+section {
+  padding-left: 21px;
+  padding-right: 21px; }
+
+@media (min-width: 850px) {
+  section {
+    padding-left: 172.5px;
+    padding-right: 172.5px; } }
+
 .masthead {
   background-color: #1b1d2a;
   display: flex;
@@ -132,6 +141,11 @@ a {
 .social_media__list--item svg {
   width: 22.6px; }
 
+@media (min-width: 850px) {
+  .header {
+    padding-left: 172.5px;
+    padding-right: 172.5px; } }
+
 .navigation {
   position: fixed;
   z-index: 1;
@@ -182,8 +196,6 @@ a {
     display: none; } }
 
 .section__about-me {
-  padding-left: 16px;
-  padding-right: 16px;
   margin-top: 60px;
   margin-bottom: 60px;
   padding-bottom: 30px; }
@@ -264,8 +276,6 @@ a {
     margin-left: 40px; } }
 
 .section__features {
-  padding-left: 21px;
-  padding-right: 21px;
   margin-top: 60px;
   margin-bottom: 60px;
   padding-bottom: 30px; }
@@ -306,15 +316,18 @@ a {
   margin-top: 17px;
   margin-bottom: 17px; }
 
+@media (min-width: 650px) {
+  .features__wrapper {
+    grid-template-columns: repeat(2, 1fr); } }
+
+@media (min-width: 850px) {
+  .features__wrapper {
+    grid-template-columns: repeat(3, 1fr); } }
+
 .section__projects {
   margin-top: 60px;
   margin-bottom: 60px;
   padding-bottom: 30px; }
-
-.section__projects,
-.section__projects--wrapper {
-  padding-left: 21px;
-  padding-right: 21px; }
 
 .section__projects--wrapper,
 .project__link {
@@ -400,12 +413,27 @@ a {
 .project__link:hover {
   color: #f1b631; }
 
+@media (min-width: 850px) {
+  .section__projects--wrapper article {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 40px;
+    padding-top: 50px;
+    padding-bottom: 50px; }
+  .article__wrapper {
+    direction: ltr; }
+  .projects {
+    margin-top: 40px;
+    margin-bottom: 40px; }
+  .projects__image {
+    margin-top: 0; }
+  .section__projects--wrapper:nth-of-type(even) article {
+    direction: rtl; } }
+
 .section__contact {
   margin-top: 60px;
   margin-bottom: 60px;
-  padding-bottom: 30px;
-  padding-left: 20px;
-  padding-right: 20px; }
+  padding-bottom: 30px; }
 
 .contact__image {
   max-height: 34px;

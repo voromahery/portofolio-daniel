@@ -111,3 +111,10 @@
 //   height: max-content;
 //   display: block;
 // }
+
+@media(min-width: 850px) {
+  .header {
+    padding-left: 172.5px;
+    padding-right: 172.5px;
+  }
+}

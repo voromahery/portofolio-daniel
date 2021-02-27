@@ -46,3 +46,15 @@ a {
   top: 0;
   left: 0;
 }
+
+section {
+  padding-left: 21px;
+  padding-right: 21px;
+}
+
+@media (min-width: 850px) {
+  section {
+    padding-left: 172.5px;
+    padding-right: 172.5px;
+  }
+}

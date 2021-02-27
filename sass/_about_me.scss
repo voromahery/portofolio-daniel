@@ -1,10 +1,7 @@
 @import "./variable";
 
 .section__about-me {
-  padding-left: 16px;
-  padding-right: 16px;
   @include section-margin;
-  // margin-bottom: 30px;
 }
 
 .about-me__title,

@@ -1,8 +1,6 @@
 @import "./variable";
 
 .section__features {
-  padding-left: 21px;
-  padding-right: 21px;
   @include section-margin;
 }
 
@@ -47,4 +45,16 @@
 .features__paragraph {
   margin-top: 17px;
   margin-bottom: 17px;
+}
+
+@media (min-width: 650px) {
+  .features__wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 850px) {
+  .features__wrapper {
+    grid-template-columns: repeat(3, 1fr);
+  }
 }
