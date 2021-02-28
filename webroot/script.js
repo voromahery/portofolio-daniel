@@ -2,18 +2,18 @@ const works = [
   {
     title: "Photograf",
     description:
-      "This website is suitable for a photographer who want to wants to display his or her works online, thisis a site I created using Sass and a little javascript",
+      "This website is suitable for a photographer who wants to display his or her works online.",
     screenshot: "./images/photograf.webp",
     figma:
       "https://www.figma.com/file/QDZhke3UJVjXjNwFKqsWDR/Laaqiq-1-Portfolio-detail-Responsive-Copy",
     link: "https://voromahery.github.io/front-end-finals/",
     code: "https://github.com/voromahery/front-end-finals",
     date: "dd",
-    skill: ["Html5", "Sass", "Css3"],
+    skill: ["Html5", "Sass", "Css3", "Javascript"],
   },
   {
-    title: "Edie home page",
-    description: "A responsive project using Sass.",
+    title: "Edie homepage",
+    description: "A responsive homepage",
     screenshot: "./images/edie.webp",
     figma:
       "https://www.figma.com/file/ahnGupP4JjTdVJDTRfMRF2/edie-homepage?node-id=0%3A1",
@@ -25,7 +25,7 @@ const works = [
   {
     title: "Birthday App",
     description:
-      "This is a week project I made when I first learned vanilla javascript",
+      "An appliction that displays someone in the list's birthday and displays the next birthday.",
     screenshot: "./images/birthday-app.webp",
     figma: "",
     link: "https://birthday-app-daniel.netlify.app/",
@@ -36,7 +36,7 @@ const works = [
   {
     title: "Country quiz",
     description:
-      "The first game I have built which is used to learn the capital of a city and their flags, built with react.",
+      "An application that can be used to learn about a country capital and its flag, this is useful for promoting your skills about a country.",
     screenshot: "./images/country-quiz.webp",
     figma: "https://www.figma.com/file/Gw0ZNBbYN8asqFlZWy3jG1",
     link: "https://country-quiz-daniel.netlify.app/",
@@ -47,7 +47,7 @@ const works = [
   {
     title: "OnjaBook",
     description:
-      "Simple clone of facebook in order to learn about reducer in react.",
+      "Simple clone of facebook in order to learn about reducer in react, this with this application, you can only post, comment and change your profile.",
     screenshot: "./images/onjabook.webp",
     figma: "",
     link: "https://onjabook-daniel.netlify.app/",
