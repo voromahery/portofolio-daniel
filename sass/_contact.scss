@@ -14,8 +14,6 @@
 
 .contact__item {
   @include flex-row;
-  margin-top: 34px;
-  margin-bottom: 34px;
 }
 
 .contact__paragraph,
@@ -48,14 +46,22 @@
   background-color: $body-color;
 }
 
-.contact__item {
-  margin-right: 22px;
- width: 100%;   
+.contact__container {
+  display: grid;
+  grid-gap: 30px;
+  margin-top: 34px;
+  margin-bottom: 34px;
 }
 
 @media (min-width: 650px) {
   .contact__container {
-    @include flex-row;
-    justify-content: space-between;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+@media (min-width: 1100px) {
+  .contact__container {
+    grid-template-columns: repeat(3, 1fr);
   }
 }

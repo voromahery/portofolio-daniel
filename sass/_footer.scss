@@ -10,9 +10,14 @@ footer {
 }
 
 footer,
-.footer__list {
+.footer__list,
+.footer__wrapper {
   display: flex;
   align-items: center;
+}
+
+.footer__wrapper {
+  flex-direction: column;
 }
 
 .footer__list {
@@ -33,14 +38,6 @@ footer,
   margin-left: 8.5px;
   margin-right: 8.5px;
 }
-
-// .facebook {
-//   background-image: url("#{$image-path}/facebook-icon.svg");
-//   background-position: right center;
-//   background-repeat: no-repeat;
-//   height: max-content;
-//   display: block;
-// }
 
 .tools {
   display: flex;
