@@ -334,7 +334,7 @@ section {
   .features__wrapper {
     grid-template-columns: repeat(2, 1fr); } }
 
-@media (min-width: 850px) {
+@media (min-width: 1100px) {
   .features__wrapper {
     grid-template-columns: repeat(3, 1fr); } }
 
@@ -486,6 +486,17 @@ section {
   height: 1px;
   width: 50%;
   background-color: #ced8de; }
+
+.contact__item {
+  margin-right: 22px;
+  width: 100%; }
+
+@media (min-width: 650px) {
+  .contact__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center; } }
 
 footer {
   flex-direction: column;

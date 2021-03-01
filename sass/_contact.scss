@@ -49,3 +49,17 @@
   width: 50%;
   background-color: $body-color;
 }
+
+.contact__item {
+  margin-right: 22px;
+ width: 100%;   
+}
+
+@media (min-width: 650px) {
+  .contact__container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+  }
+}
