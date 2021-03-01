@@ -53,7 +53,8 @@ section {
 }
 
 @media (min-width: 850px) {
-  section {
+  section,
+  footer {
     padding-left: 172.5px;
     padding-right: 172.5px;
   }

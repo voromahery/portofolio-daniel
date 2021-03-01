@@ -66,13 +66,11 @@
 }
 
 .more__projects a {
-  display: flex;
-  align-items: center;
+  @include flex-row;
   max-width: max-content;
   margin: auto;
   font-size: 13.6px;
   color: $primary-color;
-  align-items: center;
 }
 
 .more__projects svg {
@@ -98,10 +96,6 @@
 }
 
 @media (min-width: 850px) {
-  // .section__projects {
-  //   padding-left: 172.5px;
-  //   padding-right: 172.5px;
-  // }
   .section__projects--wrapper article {
     display: grid;
     grid-template-columns: repeat(2, 1fr);

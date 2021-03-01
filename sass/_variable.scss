@@ -32,3 +32,9 @@ $image-path: "../images";
   margin-bottom: 60px;
   padding-bottom: 30px;
 }
+
+@mixin flex-row {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}

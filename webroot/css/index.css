@@ -49,7 +49,8 @@ section {
   padding-right: 21px; }
 
 @media (min-width: 850px) {
-  section {
+  section,
+  footer {
     padding-left: 172.5px;
     padding-right: 172.5px; } }
 
@@ -261,14 +262,14 @@ section {
 .skills__list,
 .skills__list--item {
   display: flex;
-  flex-direction: row; }
+  flex-direction: row;
+  align-items: center; }
 
 .skills__list {
   flex-wrap: wrap;
   font-size: 13.6px; }
 
 .skills__list--item {
-  align-items: center;
   margin-right: 17px; }
 
 .skills__list--item::before {
@@ -403,12 +404,12 @@ section {
 
 .more__projects a {
   display: flex;
+  flex-direction: row;
   align-items: center;
   max-width: max-content;
   margin: auto;
   font-size: 13.6px;
-  color: #f1b631;
-  align-items: center; }
+  color: #f1b631; }
 
 .more__projects svg {
   margin-left: 4.25px; }
@@ -495,8 +496,8 @@ section {
   .contact__container {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    align-items: center; } }
+    align-items: center;
+    justify-content: space-between; } }
 
 footer {
   flex-direction: column;
@@ -568,3 +569,12 @@ footer,
   display: flex;
   align-items: center;
   flex-direction: column; }
+
+@media (min-width: 650px) {
+  footer {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    margin-bottom: 0; } }

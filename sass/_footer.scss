@@ -98,3 +98,12 @@ footer,
   align-items: center;
   flex-direction: column;
 }
+
+@media (min-width: 650px) {
+  footer {
+    @include flex-row;
+    padding-top: 35px;
+    padding-bottom: 35px;
+    margin-bottom: 0;
+  }
+}

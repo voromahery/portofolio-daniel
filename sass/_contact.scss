@@ -13,9 +13,7 @@
 }
 
 .contact__item {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+  @include flex-row;
   margin-top: 34px;
   margin-bottom: 34px;
 }
@@ -57,9 +55,7 @@
 
 @media (min-width: 650px) {
   .contact__container {
-    display: flex;
-    flex-direction: row;
+    @include flex-row;
     justify-content: space-between;
-    align-items: center;
   }
 }
