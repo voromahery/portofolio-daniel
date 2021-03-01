@@ -106,14 +106,12 @@
 @media (min-width: 650px) {
   .header,
   .masthead {
-    padding-left: 40px;
-    padding-right: 40px;
+    @include tablet-inline-padding;
   }
 }
 
 @media (min-width: 1100px) {
   .header {
-    padding-left: 172.5px;
-    padding-right: 172.5px;
+    @include desktop-inline-padding;
   }
 }

@@ -38,3 +38,13 @@ $image-path: "../images";
   flex-direction: row;
   align-items: center;
 }
+
+@mixin tablet-inline-padding {
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+@mixin desktop-inline-padding {
+  padding-left: 172.5px;
+  padding-right: 172.5px;
+}
