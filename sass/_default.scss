@@ -1,6 +1,7 @@
 @import "./variable";
 
 body {
+  max-width: 1440px;
   margin: auto;
   background-color: $bg-color;
 }
@@ -52,9 +53,15 @@ section {
   padding-right: 21px;
 }
 
-@media (min-width: 850px) {
-  section,
-  footer {
+@media (min-width: 650px) {
+  section {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+}
+
+@media (min-width: 1100px) {
+  section {
     padding-left: 172.5px;
     padding-right: 172.5px;
   }
