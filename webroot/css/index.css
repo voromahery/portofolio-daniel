@@ -94,9 +94,12 @@ section {
   font-size: 40px;
   margin-bottom: 0; }
 
+.small__heading,
+.header__article--paragraph {
+  font-size: 17px; }
+
 .header__article--paragraph {
   color: #ced8de;
-  font-size: 17px;
   margin-bottom: 21.25px; }
 
 .header__article--button,
@@ -117,7 +120,7 @@ section {
   padding-bottom: 6.4px;
   border: none;
   max-width: max-content;
-  font-weight: 600;
+  font-weight: 500;
   position: relative; }
 
 .header__article--button svg {
@@ -151,7 +154,15 @@ section {
   .header,
   .masthead {
     padding-left: 40px;
-    padding-right: 40px; } }
+    padding-right: 40px; }
+  .header__article--title {
+    font-size: 80px;
+    line-height: 1.1; }
+  .small__heading,
+  .header__article--paragraph {
+    font-size: 20px; }
+  .header__article--button {
+    font-size: 14.4px; } }
 
 @media (min-width: 1100px) {
   .header {
