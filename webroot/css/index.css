@@ -224,7 +224,8 @@ section {
   .navigation svg {
     display: none; }
   .navigation__link {
-    position: relative; }
+    position: relative;
+    font-size: 16px; }
   .navigation__link:hover::before {
     right: 0; }
   .navigation__link::before {

@@ -50,7 +50,6 @@
 
   .navigation__list {
     justify-content: unset;
-    // height: 100px;
   }
 
   .navigation__list--item {
@@ -64,6 +63,7 @@
 
   .navigation__link {
     position: relative;
+    font-size: 16px;
   }
 
   .navigation__link:hover::before {
