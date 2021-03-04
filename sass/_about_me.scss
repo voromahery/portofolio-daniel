@@ -75,6 +75,12 @@
   margin-right: 4.25px;
 }
 
+@media (min-width: 650px) {
+  .skills__list--item {
+    font-size: 16px;
+  }
+}
+
 @media (min-width: 850px) {
   .about-me__article {
     display: flex;

@@ -47,9 +47,21 @@
   margin-bottom: 17px;
 }
 
+.features__heading {
+  font-size: 25.5px;
+}
+
 @media (min-width: 650px) {
   .features__wrapper {
     grid-template-columns: repeat(2, 1fr);
+  }
+
+  .features__heading {
+    font-size: 30px;
+  }
+
+  .features__paragraph {
+    font-size: 16px;
   }
 }
 

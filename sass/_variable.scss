@@ -24,7 +24,10 @@ $image-path: "../images";
   font-size: 30.64px;
   position: relative;
   padding-top: 24px;
-  margin-top: 42.5px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-weight: 800;
+  line-height: 1.15;
 }
 
 @mixin section-margin {

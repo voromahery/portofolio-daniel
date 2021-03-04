@@ -34,8 +34,6 @@ a {
   color: $title-color;
   position: relative;
   @include title;
-  padding-top: 24px;
-  margin-bottom: 0;
 }
 
 .title::first-letter {
@@ -53,9 +51,21 @@ section {
   padding-right: 21px;
 }
 
+.paragraph {
+  font-size: 17px;
+}
+
 @media (min-width: 650px) {
   section {
     @include tablet-inline-padding;
+  }
+
+  .title {
+    font-size: 36px;
+  }
+
+  .paragraph {
+    font-size: 20px;
   }
 }
 
