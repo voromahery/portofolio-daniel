@@ -3,6 +3,12 @@ body {
   margin: auto;
   background-color: #252839; }
 
+html::-webkit-scrollbar-thumb {
+  scrollbar-color: yellow; }
+
+html::-webkit-scrollbar-track {
+  scrollbar-color: red; }
+
 * {
   font-family: "Poppins", sans-serif; }
 
@@ -100,6 +106,7 @@ section {
 
 .header__article--title {
   font-size: 40px;
+  font-weight: 600;
   margin-bottom: 0; }
 
 .small__heading {
@@ -155,7 +162,7 @@ section {
   right: -6px; }
 
 .social_media__list--item svg {
-  width: 22.6px; }
+  width: 26.59px; }
 
 @media (min-width: 650px) {
   .header,
@@ -225,7 +232,7 @@ section {
     display: none; }
   .navigation__link {
     position: relative;
-    font-size: 16px; }
+    font-size: 20px; }
   .navigation__link:hover::before {
     right: 0; }
   .navigation__link::before {
@@ -480,7 +487,10 @@ section {
   .projects__title {
     font-size: 32px; }
   .more__projects a {
-    font-size: 16px; } }
+    font-size: 16px; }
+  .project__link svg {
+    width: 26.66px;
+    height: auto; } }
 
 @media (min-width: 1100px) {
   .section__projects--wrapper article {
@@ -647,6 +657,8 @@ footer,
     padding-right: 40px;
     margin-bottom: 0;
     font-size: 16px; }
+  .footer__link svg {
+    width: 21.33px; }
   .footer__wrapper {
     flex-direction: row; }
   .footer__copyright {

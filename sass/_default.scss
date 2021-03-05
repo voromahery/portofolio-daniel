@@ -6,6 +6,14 @@ body {
   background-color: $bg-color;
 }
 
+html::-webkit-scrollbar-thumb {
+  scrollbar-color: yellow;
+}
+
+html::-webkit-scrollbar-track {
+  scrollbar-color: red;
+}
+
 * {
   font-family: "Poppins", sans-serif;
 }

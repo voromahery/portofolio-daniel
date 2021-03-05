@@ -111,6 +111,11 @@
   .more__projects a {
     font-size: 16px;
   }
+  
+  .project__link svg {
+    width: 26.66px;
+    height: auto;
+  }
 }
 @media (min-width: 1100px) {
   .section__projects--wrapper article {
