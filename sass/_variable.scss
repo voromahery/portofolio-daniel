@@ -10,8 +10,12 @@ $disabled-color: #888;
 // Path
 $image-path: "../images";
 
+// Transition duration
+
+$transition: ease-in 0.2s;
+ 
 //Mixins
-@mixin small-line {
+  @mixin small-line {
   content: "";
   background-color: #f1b631;
   position: absolute;

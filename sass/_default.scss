@@ -6,12 +6,18 @@ body {
   background-color: $bg-color;
 }
 
-html::-webkit-scrollbar-thumb {
-  scrollbar-color: yellow;
+body::-webkit-scrollbar-thumb {
+  background-color: yellow;
+  border-radius: 6px;
+  border: 3px solid yellow;
 }
 
-html::-webkit-scrollbar-track {
-  scrollbar-color: red;
+body::-webkit-scrollbar-track {
+  background-color: red;
+}
+
+body::-webkit-scrollbar {
+  width: 12px;
 }
 
 * {

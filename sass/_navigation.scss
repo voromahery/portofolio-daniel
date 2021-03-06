@@ -66,6 +66,11 @@
     font-size: 20px;
   }
 
+  .navigation__link:hover,
+  .navigation__link {
+    transition: color $transition;
+  }
+
   .navigation__link:hover::before {
     right: 0;
   }

@@ -107,6 +107,11 @@
   width: 26.59px;
 }
 
+.social__media--link:hover,
+.social__media--link {
+  transition: color $transition;
+}
+
 @media (min-width: 650px) {
   .header,
   .masthead {

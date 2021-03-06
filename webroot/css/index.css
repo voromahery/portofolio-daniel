@@ -3,11 +3,16 @@ body {
   margin: auto;
   background-color: #252839; }
 
-html::-webkit-scrollbar-thumb {
-  scrollbar-color: yellow; }
+body::-webkit-scrollbar-thumb {
+  background-color: yellow;
+  border-radius: 6px;
+  border: 3px solid yellow; }
 
-html::-webkit-scrollbar-track {
-  scrollbar-color: red; }
+body::-webkit-scrollbar-track {
+  background-color: red; }
+
+body::-webkit-scrollbar {
+  width: 12px; }
 
 * {
   font-family: "Poppins", sans-serif; }
@@ -164,6 +169,10 @@ section {
 .social_media__list--item svg {
   width: 26.59px; }
 
+.social__media--link:hover,
+.social__media--link {
+  transition: color ease-in 0.2s; }
+
 @media (min-width: 650px) {
   .header,
   .masthead {
@@ -233,6 +242,9 @@ section {
   .navigation__link {
     position: relative;
     font-size: 20px; }
+  .navigation__link:hover,
+  .navigation__link {
+    transition: color ease-in 0.2s; }
   .navigation__link:hover::before {
     right: 0; }
   .navigation__link::before {
@@ -480,6 +492,10 @@ section {
 .project__link:hover {
   color: #f1b631; }
 
+.project__link:hover,
+.project__link {
+  transition: color ease-in 0.2s; }
+
 @media (min-width: 650px) {
   .skills__list,
   .projects__description {
@@ -594,6 +610,10 @@ footer,
 
 .footer__link:hover {
   color: #f1b631; }
+
+.footer__link,
+.footer__link:hover {
+  transition: color ease-in 0.2s; }
 
 .footer__link svg {
   width: 19px;

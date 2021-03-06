@@ -98,6 +98,11 @@
   color: $primary-color;
 }
 
+.project__link:hover,
+  .project__link {
+    transition: color $transition;
+  }
+
 @media (min-width: 650px) {
   .skills__list,
   .projects__description {

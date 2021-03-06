@@ -32,6 +32,11 @@ footer,
   color: $primary-color;
 }
 
+.footer__link,
+.footer__link:hover {
+  transition: color $transition;
+}
+
 .footer__link svg {
   width: 19px;
   height: initial;
