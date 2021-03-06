@@ -56,7 +56,12 @@ a {
 .title {
   color: $title-color;
   position: relative;
-  @include title;
+  font-size: 27px;
+  padding-top: calc(24px / 2);
+  margin-top: calc(20px / 2);
+  margin-bottom: calc(20px / 2);
+  font-weight: 800;
+  line-height: 1.15;
 }
 
 .title::first-letter {
@@ -70,12 +75,27 @@ a {
 }
 
 section {
-  padding-left: 21px;
-  padding-right: 21px;
+  padding-left: calc(21px / 2);
+  padding-right: calc(21px / 2);
 }
 
 .paragraph {
-  font-size: 17px;
+  font-size: 13px;
+}
+
+@media (min-width: 300px) {
+  .title {
+    @include title;
+  }
+
+  .paragraph {
+    font-size: 17px;
+  }
+
+  section {
+    padding-left: 21px;
+    padding-right: 21px;
+  }
 }
 
 @media (min-width: 650px) {
