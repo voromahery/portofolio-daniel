@@ -19,6 +19,7 @@
   justify-content: center;
   min-height: calc(100vh - 2 * 80px);
   position: relative;
+  padding-bottom: 30px;
 }
 
 .masthead__title,
@@ -134,13 +135,19 @@
 
 .scrolldown-container {
   position: absolute;
-  bottom: 20px;
+  bottom: 0;
   left: 0;
   right: 0;
   width: 100%;
   text-align: center;
   display: none;
+}
+
+.scrolldown-container > p {
   color: $body-color;
+  font-size: 14px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 
 .mouse {
@@ -163,10 +170,8 @@
   animation: scroll 2.2s;
   animation-direction: alternate;
   animation-iteration-count: infinite;
-  animation-timing-function: cubic-bezier(0.15,0.41,0.69,0.94);
+  animation-timing-function: cubic-bezier(0.15, 0.41, 0.69, 0.94);
 }
-
-
 
 @media (min-width: 650px) {
   .header,
