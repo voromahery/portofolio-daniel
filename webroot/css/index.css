@@ -572,6 +572,11 @@ picture {
     width: 26.66px;
     height: auto; } }
 
+@media (min-width: 850px) {
+  .projects__image {
+    margin-top: 0;
+    margin-bottom: 0; } }
+
 @media (min-width: 1100px) {
   .section__projects--wrapper article {
     display: grid;
