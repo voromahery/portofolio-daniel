@@ -13,9 +13,9 @@ $image-path: "../images";
 // Transition duration
 
 $transition: ease-in 0.2s;
- 
+
 //Mixins
-  @mixin small-line {
+@mixin small-line {
   content: "";
   background-color: #f1b631;
   position: absolute;
@@ -38,6 +38,11 @@ $transition: ease-in 0.2s;
   margin-top: 60px;
   margin-bottom: 60px;
   padding-bottom: 30px;
+}
+
+@mixin section-desktop-margin {
+  margin-top: 90px;
+  margin-bottom: 90px;
 }
 
 @mixin flex-row {

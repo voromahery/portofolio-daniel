@@ -7,7 +7,7 @@ const works = [
     figma:
       "https://www.figma.com/file/QDZhke3UJVjXjNwFKqsWDR/Laaqiq-1-Portfolio-detail-Responsive-Copy",
     link: "https://voromahery.github.io/front-end-finals/",
-    code: "https://github.com/voromahery/front-end-finals",
+    code: "https://github.com/voromahery/photograf",
     date: "dd",
     skill: ["Html5", "Sass", "Css3", "Javascript"],
   },
@@ -27,7 +27,7 @@ const works = [
     description:
       "An appliction that displays someone in the list's birthday and displays the next birthday.",
     screenshot: "./images/birthday-app.webp",
-    figma: "",
+    figma: null,
     link: "https://birthday-app-daniel.netlify.app/",
     code: "https://github.com/voromahery/birthday-app",
     date: "11/12/2020",
@@ -51,6 +51,7 @@ const works = [
     screenshot: "./images/onjabook.webp",
     figma: "",
     link: "https://onjabook-daniel.netlify.app/",
+    code: "https://github.com/voromahery/onjabook",
     date: "05/12/2020",
     skill: ["Css3", "React"],
   },
