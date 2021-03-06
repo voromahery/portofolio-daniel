@@ -26,6 +26,11 @@
   font-size: 10px;
 }
 
+.navigation__link div {
+  display: flex;
+  flex-wrap: nowrap;
+}
+
 .navigation__link:hover {
   color: $primary-color;
 }
