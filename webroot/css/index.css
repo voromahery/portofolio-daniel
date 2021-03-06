@@ -828,6 +828,36 @@ picture {
   .contact__container {
     grid-template-columns: repeat(3, 1fr); } }
 
+.scroll-up__container {
+  position: fixed;
+  right: -100px;
+  bottom: 150px;
+  transition: right linear 0.2s;
+  border-radius: 4px;
+  z-index: 3; }
+
+.scroll-up__button {
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+  padding: 0.5rem;
+  cursor: pointer;
+  color: #fff;
+  border: none;
+  background-color: #1b1d2a;
+  width: 43px;
+  height: 46px; }
+
+.scroll-up__button:hover {
+  background-color: #252839;
+  border: 2px solid #fff; }
+
 footer {
   flex-direction: column;
   background-color: #1b1d2a;
