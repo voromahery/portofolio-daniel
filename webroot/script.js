@@ -70,7 +70,9 @@ function myPortofolio() {
       return `
           <div class="section__projects--wrapper">
             <article>
-            <img src="./images/game.jpg" class="projects__image" alt="">
+              <picture>
+                <img src="./images/game.jpg" class="projects__image" alt="">
+              </picture>
                <div class="article__wrapper">
                   <h2 class="projects__title">${item.title}</h2>
                   <p class="projects__description">${item.description}</p>

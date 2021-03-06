@@ -496,6 +496,16 @@ section {
 .project__link {
   transition: color ease-in 0.2s; }
 
+.projects__image:hover {
+  transform: scale(1.1); }
+
+.projects__image,
+.projects__image:hover {
+  transition: all ease-in 0.2s; }
+
+picture {
+  overflow: hidden; }
+
 @media (min-width: 650px) {
   .skills__list,
   .projects__description {
