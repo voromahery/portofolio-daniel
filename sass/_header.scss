@@ -216,6 +216,10 @@
     @include tablet-inline-padding;
   }
 
+  .header {
+    padding-top: 30px;
+  }
+
   .header__article--title {
     font-size: 80px;
     line-height: 1.1;

@@ -3,10 +3,10 @@
 footer {
   flex-direction: column;
   background-color: $bg-content-color;
-  padding: 12px;
-  margin-bottom: 49px;
+  padding: calc(12px / 2);
+  margin-bottom: calc(49px / 2);
   color: $body-color;
-  font-size: 13.6px;
+  font-size: 10px;
 }
 
 footer,
@@ -40,15 +40,15 @@ footer,
 .footer__link svg {
   width: 19px;
   height: initial;
-  margin-left: 8.5px;
-  margin-right: 8.5px;
+  margin-left: calc(8.5px / 2);
+  margin-right: calc(8.5px / 2);
 }
 
 .tools {
   display: flex;
   align-items: center;
-  margin-top: 13.6px;
-  margin-bottom: 13.6px;
+  margin-top: calc(13.6px / 2);
+  margin-bottom: calc(13.6px / 2);
   height: 45.5px;
   gap: 5px;
 }
@@ -99,6 +99,25 @@ footer,
   display: flex;
   align-items: center;
   flex-direction: column;
+}
+
+@media (min-width: 300px) {
+  footer {
+    padding: 12px;
+    margin-bottom: 49px;
+    font-size: 13.6px;
+  }
+
+  .footer__link svg {
+    width: 19px;
+    margin-left: 8.5px;
+    margin-right: 8.5px;
+  }
+
+  .tools {
+    margin-top: 13.6px;
+    margin-bottom: 13.6px;
+  }
 }
 
 @media (min-width: 650px) {

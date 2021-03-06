@@ -1,7 +1,9 @@
 @import "./variable";
 
 .section__projects {
-  @include section-margin;
+  margin-top: calc(60px / 2);
+  margin-bottom: calc(60px / 2);
+  padding-bottom: calc(30px / 2);
 }
 
 .section__projects--wrapper,
@@ -12,7 +14,7 @@
 .projects__title {
   position: relative;
   color: $title-color;
-  font-size: 27.25px;
+  font-size: 22px;
 }
 
 .projects__title::before,
@@ -29,18 +31,18 @@
 
 .projects__description,
 .skills__list {
-  font-size: 13.6px;
+  font-size: 10px;
 }
 
 .projects__description {
   background-color: $bg-content-color;
-  padding: 10px;
-  border-radius: 8px;
+  padding: calc(10px / 2);
+  border-radius: 6px;
 }
 
 .projects__image {
-  margin-top: 40px;
-  margin-bottom: 40px;
+  margin-top: calc(40px / 2);
+  margin-bottom: calc(40px / 2);
 }
 
 .projects__list,
@@ -50,19 +52,19 @@
 }
 
 .projects__list {
-  margin-top: 10px;
-  margin-bottom: 10px;
+  margin-top: calc(10px / 2);
+  margin-bottom: calc(10px / 2);
   justify-content: flex-end;
 }
 
 .projects__list svg {
-  margin-left: 8.5px;
-  margin-right: 8.5px;
+  margin-left: calc(8.5px/2);
+  margin-right: calc(8.5px/2);
 }
 
 .project__link svg {
-  width: 22.66px;
-  height: 23px;
+  width: 20px;
+  height: 22px;
 }
 
 .more__projects {
@@ -72,7 +74,7 @@
 
 .more__projects a {
   @include flex-row;
-  font-size: 13.6px;
+  font-size: 10px;
   color: $primary-color;
 }
 
@@ -90,7 +92,7 @@
 }
 
 .more__projects svg {
-  width: 11.9px;
+  width: 10px;
   max-height: max-content;
 }
 
@@ -115,6 +117,59 @@
 picture {
   display: block;
   overflow: hidden;
+}
+
+@media (min-width: 300px) {
+  .section__projects {
+    @include section-margin;
+  }
+
+  .projects__title {
+    font-size: 27.25px;
+  }
+
+  .section__projects--title {
+    @include title;
+    padding-top: 0;
+  }
+
+  .projects__description,
+  .skills__list {
+    font-size: 13.6px;
+  }
+
+  .projects__description {
+    padding: 10px;
+    border-radius: 8px;
+  }
+
+  .projects__image {
+    margin-top: 40px;
+    margin-bottom: 40px;
+  }
+
+  .projects__list {
+    margin-top: 10px;
+    margin-bottom: 10px;
+  }
+
+  .projects__list svg {
+    margin-left: 8.5px;
+    margin-right: 8.5px;
+  }
+
+  .project__link svg {
+    width: 22.66px;
+    height: 23px;
+  }
+
+  .more__projects a {
+    font-size: 13.6px;
+  }
+
+  .more__projects svg {
+    width: 11.9px;
+  }
 }
 
 @media (min-width: 650px) {
@@ -157,16 +212,14 @@ picture {
   }
 }
 
-
 @media (min-width: 850px) {
   .projects__image {
     margin-top: 0;
     margin-bottom: 0;
-}
+  }
 }
 
 @media (min-width: 1100px) {
-
   .projects {
     margin-top: 40px;
     margin-bottom: 40px;

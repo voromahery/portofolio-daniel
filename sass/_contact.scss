@@ -1,14 +1,16 @@
 @import "./variable";
 
 .section__contact {
-  @include section-margin;
+  margin-top: calc(60px / 2);
+  margin-bottom: calc(60px / 2);
+  padding-bottom: calc(30px / 2);
 }
 
 .contact__image {
-  max-height: 34px;
+  max-height: 30px;
   width: auto;
-  max-width: 34px;
-  margin-right: 12.75px;
+  max-width: 30px;
+  margin-right: calc(12.75px / 2);
   align-self: center;
 }
 
@@ -16,9 +18,8 @@
   @include flex-row;
 }
 
-.contact__paragraph,
 .contact__name {
-  font-size: 17px;
+  font-size: 13px;
 }
 
 .contact__issue--link,
@@ -37,7 +38,7 @@
 }
 
 .contact__detail {
-  font-size: 12.75px;
+  font-size: 10px;
 }
 
 .contact__line {
@@ -48,9 +49,35 @@
 
 .contact__container {
   display: grid;
-  grid-gap: 30px;
-  margin-top: 34px;
-  margin-bottom: 34px;
+  grid-gap: calc(30px / 2);
+  margin-top: calc(34px / 2);
+  margin-bottom: calc(34px / 2);
+}
+
+@media (min-width: 300px) {
+  .section__contact {
+    @include section-margin;
+  }
+
+  .contact__image {
+    max-height: 34px;
+    max-width: 34px;
+    margin-right: 12.75px;
+  }
+
+  .contact__name {
+    font-size: 17px;
+  }
+
+  .contact__detail {
+    font-size: 12.75px;
+  }
+
+  .contact__container {
+    grid-gap: 30px;
+    margin-top: 34px;
+    margin-bottom: 34px;
+  }
 }
 
 @media (min-width: 650px) {
