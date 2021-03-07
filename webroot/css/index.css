@@ -376,7 +376,7 @@ section {
     position: absolute;
     left: 0;
     right: 100%;
-    bottom: 0;
+    bottom: -23px;
     background: #f1b631;
     height: 2px;
     -webkit-transition: right 0.3s ease-out;
