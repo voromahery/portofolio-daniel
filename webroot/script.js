@@ -6,7 +6,7 @@ const works = [
     screenshot: "./images/photograf.webp",
     figma:
       "https://www.figma.com/file/QDZhke3UJVjXjNwFKqsWDR/Laaqiq-1-Portfolio-detail-Responsive-Copy",
-    link: "https://voromahery.github.io/front-end-finals/",
+    link: "https://voromahery.github.io/photograf/",
     code: "https://github.com/voromahery/photograf",
     date: "dd",
     skill: ["Html5", "Sass", "Css3", "Javascript"],
