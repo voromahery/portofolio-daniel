@@ -86,12 +86,19 @@
 }
 
 .more__projects:hover svg {
-  margin-left: 6.4px;
+  margin-left: 10px;
 }
 
 .more__projects a:hover {
   text-decoration: underline;
   color: $secondary-color;
+}
+
+.more__projects a,
+.more__projects a:hover,
+.more__projects svg,
+.more__projects:hover svg {
+  transition: all $transition;
 }
 
 .more__projects svg {

@@ -32,3 +32,8 @@
   background-color: $bg-color;
   border: 2px solid $title-color;
 }
+
+.scroll-up__button,
+.scroll-up__button:hover {
+  transition: all $transition;
+}

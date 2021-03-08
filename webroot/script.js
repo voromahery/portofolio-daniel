@@ -2,7 +2,7 @@ const works = [
   {
     title: "Photograf",
     description:
-      "This website is suitable for a photographer who wants to display his or her works online.",
+      "This website is suitable for a photographer who wants to his or her works to the world.",
     screenshot: "./images/photograf.webp",
     figma:
       "https://www.figma.com/file/QDZhke3UJVjXjNwFKqsWDR/Laaqiq-1-Portfolio-detail-Responsive-Copy",
@@ -13,7 +13,7 @@ const works = [
   },
   {
     title: "Edie homepage",
-    description: "A responsive homepage",
+    description: "A responsive homepage, which is the clone of the homepage of Edie.",
     screenshot: "./images/edie.webp",
     figma:
       "https://www.figma.com/file/ahnGupP4JjTdVJDTRfMRF2/edie-homepage?node-id=0%3A1",
@@ -25,7 +25,7 @@ const works = [
   {
     title: "Birthday App",
     description:
-      "An appliction that displays someone in the list's birthday and displays the next birthday.",
+      "An application that displays someone in the list's birthday and displays the next birthday. This application helps to remember friends' or family member's birthday.",
     screenshot: "./images/birthday-app.webp",
     figma: null,
     link: "https://birthday-app-daniel.netlify.app/",

@@ -1,0 +1,34 @@
+@import "./variable";
+
+@font-face {
+    font-family: "myPoppins";
+    src: local('Poppins'), 
+        url("#{$font-path}/poppins-normal.woff2"),
+         url("#{$font-path}/poppins-normal.woff");
+         font-weight: 400;
+}
+
+@font-face {
+    font-family: "myPoppins";
+    src: local('Poppins'),
+         url("#{$font-path}/poppins-medium.woff2"),
+         url("#{$font-path}/poppins-medium.woff");
+         font-weight: 500;
+}
+
+@font-face {
+    font-family: "myPoppins";
+    src: local('Poppins'),
+         url("#{$font-path}/poppins-semibold.woff2"),
+         url("#{$font-path}/poppins-semibold.woff");
+         font-weight: 600;
+}
+
+@font-face {
+    font-family: "myPoppins";
+    src: local('Poppins'),
+         url("#{$font-path}/poppins-bold.woff2"),
+         url("#{$font-path}/poppins-bold.woff");
+         font-weight: 700;
+}
+
