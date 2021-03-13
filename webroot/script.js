@@ -71,7 +71,7 @@ function myPortofolio() {
           <div class="section__projects--wrapper">
             <article>
               <picture>
-                <img src="./images/game.jpg" class="projects__image" alt="">
+                <img src=${item.screenshot} class="projects__image" alt="">
               </picture>
                <div class="article__wrapper">
                   <h2 class="projects__title">${item.title}</h2>
