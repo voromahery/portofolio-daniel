@@ -1,6 +1,6 @@
 @import "./variable";
 
-.section__projects {
+.section__projects .common__container {
   margin-top: calc(60px / 2);
   margin-bottom: calc(60px / 2);
   padding-bottom: calc(30px / 2);
@@ -130,7 +130,7 @@ picture {
 }
 
 @media (min-width: 300px) {
-  .section__projects {
+  .section__projects .common__container {
     @include section-margin;
   }
 

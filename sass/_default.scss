@@ -1,9 +1,16 @@
 @import "./variable";
 
 body {
-  max-width: 1440px;
-  margin: auto;
   background-color: $bg-color;
+}
+
+body,
+.common__container {
+  margin: auto;
+}
+
+.common__container {
+  max-width: 1440px;
 }
 
 body,
@@ -13,29 +20,29 @@ button {
     Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
- body::-webkit-scrollbar-thumb {
-   background-color: yellow;
-   box-shadow: inset 0px 0px 7px grey;
-   border-radius: 6px;
- }
+body::-webkit-scrollbar-thumb {
+  background-color: yellow;
+  box-shadow: inset 0px 0px 7px grey;
+  border-radius: 6px;
+}
 
- body::-webkit-scrollbar-thumb:hover {
-   background-color: rgb(137, 255, 1);
-   box-shadow: inset 0px 0px 7px black;
- }
+body::-webkit-scrollbar-thumb:hover {
+  background-color: rgb(137, 255, 1);
+  box-shadow: inset 0px 0px 7px black;
+}
 
- body::-webkit-scrollbar-thumb:hover,
- body::-webkit-scrollbar-thumb {
-   transition: all $transition;
- }
+body::-webkit-scrollbar-thumb:hover,
+body::-webkit-scrollbar-thumb {
+  transition: all $transition;
+}
 
- body::-webkit-scrollbar-track {
-   background-color: #692f84;
- }
+body::-webkit-scrollbar-track {
+  background-color: #692f84;
+}
 
- body::-webkit-scrollbar {
-   width: 16px;
- }
+body::-webkit-scrollbar {
+  width: 16px;
+}
 
 h1,
 h2,
@@ -86,7 +93,7 @@ a {
   left: 0;
 }
 
-section {
+section .common__container {
   padding-left: calc(21px / 2);
   padding-right: calc(21px / 2);
 }
@@ -104,14 +111,14 @@ section {
     font-size: 17px;
   }
 
-  section {
+  section .common__container {
     padding-left: 21px;
     padding-right: 21px;
   }
 }
 
 @media (min-width: 650px) {
-  section {
+  section .common__container {
     @include tablet-inline-padding;
     @include section-desktop-margin;
   }
@@ -126,7 +133,7 @@ section {
 }
 
 @media (min-width: 1100px) {
-  section {
+  section .common__container {
     @include desktop-inline-padding;
   }
 }

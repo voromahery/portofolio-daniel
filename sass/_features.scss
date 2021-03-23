@@ -1,6 +1,6 @@
 @import "./variable";
 
-.section__features {
+.section__features .common__container {
   margin-top: calc(60px / 2);
   margin-bottom: calc(60px / 2);
   padding-bottom: calc(30px / 2);
@@ -54,7 +54,7 @@
 }
 
 @media (min-width: 300px) {
-  .section__features {
+  .section__features .common__container {
     @include section-margin;
   }
 
