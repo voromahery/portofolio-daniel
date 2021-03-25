@@ -3,7 +3,7 @@ const works = [
     title: "Photograf",
     description:
       "This website is suitable for a photographer who wants to his or her works to the world.",
-    screenshot: "./images/photograf.webp",
+    screenshot: "./images/rock-carving.webp",
     figma:
       "https://www.figma.com/file/QDZhke3UJVjXjNwFKqsWDR/Laaqiq-1-Portfolio-detail-Responsive-Copy",
     link: "https://voromahery.github.io/photograf/",
@@ -13,7 +13,8 @@ const works = [
   },
   {
     title: "Edie homepage",
-    description: "A responsive homepage, which is the clone of the homepage of Edie.",
+    description:
+      "A responsive homepage, which is the clone of the homepage of Edie.",
     screenshot: "./images/edie.webp",
     figma:
       "https://www.figma.com/file/ahnGupP4JjTdVJDTRfMRF2/edie-homepage?node-id=0%3A1",
@@ -26,7 +27,7 @@ const works = [
     title: "Birthday App",
     description:
       "An application that displays someone in the list's birthday and displays the next birthday. This application helps to remember friends' or family member's birthday.",
-    screenshot: "./images/birthday-app.webp",
+    screenshot: "./images/birthday-app.png",
     figma: null,
     link: "https://birthday-app-daniel.netlify.app/",
     code: "https://github.com/voromahery/birthday-app",
@@ -37,7 +38,7 @@ const works = [
     title: "Country quiz",
     description:
       "An application that can be used to learn about a country capital and its flag, this is useful for promoting your skills about a country.",
-    screenshot: "./images/country-quiz.webp",
+    screenshot: "./images/country-quiz.png",
     figma: "https://www.figma.com/file/Gw0ZNBbYN8asqFlZWy3jG1",
     link: "https://country-quiz-daniel.netlify.app/",
     code: "https://github.com/voromahery/country-quiz",
@@ -71,7 +72,9 @@ function myPortofolio() {
           <div class="section__projects--wrapper">
             <article>
               <picture>
+                <a href="${item.link}">
                 <img src=${item.screenshot} class="projects__image" alt="">
+                </a>
               </picture>
                <div class="article__wrapper">
                   <h2 class="projects__title">${item.title}</h2>
