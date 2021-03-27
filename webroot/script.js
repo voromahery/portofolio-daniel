@@ -15,7 +15,7 @@ const works = [
     title: "Edie homepage",
     description:
       "A responsive homepage, which is the clone of the homepage of Edie.",
-    screenshot: "./images/edie.webp",
+    screenshot: "./images/edie-homepage.webp",
     figma:
       "https://www.figma.com/file/ahnGupP4JjTdVJDTRfMRF2/edie-homepage?node-id=0%3A1",
     link: "https://edie-homepage-daniel.netlify.app/",
