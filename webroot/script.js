@@ -3,7 +3,7 @@ const works = [
     title: "Photograf",
     description:
       "This website is suitable for a photographer who wants to his or her works to the world.",
-    screenshot: "./images/rock-carving.webp",
+    screenshot: "./images/photograph.webp",
     figma:
       "https://www.figma.com/file/QDZhke3UJVjXjNwFKqsWDR/Laaqiq-1-Portfolio-detail-Responsive-Copy",
     link: "https://voromahery.github.io/photograf/",
@@ -45,17 +45,6 @@ const works = [
     date: "12/11/2020",
     skill: ["Css3", "React"],
   },
-  {
-    title: "OnjaBook",
-    description:
-      "Simple clone of facebook in order to learn about reducer in react, this with this application, you can only post, comment and change your profile.",
-    screenshot: "./images/onjabook.webp",
-    figma: "",
-    link: "https://onjabook-daniel.netlify.app/",
-    code: "https://github.com/voromahery/onjabook",
-    date: "05/12/2020",
-    skill: ["Css3", "React"],
-  },
 ];
 
 const section = document.querySelector(".section__projects");
@@ -71,11 +60,9 @@ function myPortofolio() {
       return `
           <div class="section__projects--wrapper">
             <article>
-              <picture>
                 <a href="${item.link}">
                 <img src=${item.screenshot} class="projects__image" alt="">
                 </a>
-              </picture>
                <div class="article__wrapper">
                   <h2 class="projects__title">${item.title}</h2>
                   <p class="projects__description">${item.description}</p>

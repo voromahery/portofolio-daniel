@@ -97,7 +97,10 @@
 .more__projects a,
 .more__projects a:hover,
 .more__projects svg,
-.more__projects:hover svg {
+.more__projects:hover svg,
+.section__projects img:hover,
+.projects__image,
+.projects__image:hover {
   transition: all $transition;
 }
 
@@ -115,18 +118,8 @@
   transition: color $transition;
 }
 
-.projects__image:hover {
-  transform: scale(1.1);
-}
-
-.projects__image,
-.projects__image:hover {
-  transition: all $transition;
-}
-
-picture {
-  display: block;
-  overflow: hidden;
+.section__projects img:hover {
+  box-shadow: 1px 1px 8px #000000;
 }
 
 @media (min-width: 300px) {

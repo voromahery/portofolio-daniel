@@ -124,6 +124,10 @@ footer .common__container,
 }
 
 @media (min-width: 650px) {
+  footer {
+    margin-bottom: 0;
+  }
+
   footer .common__container {
     @include flex-row;
     flex-direction: row-reverse;
