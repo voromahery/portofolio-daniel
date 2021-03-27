@@ -26,7 +26,7 @@ const works = [
   {
     title: "Birthday App",
     description:
-      "An application that displays someone in the list's birthday and displays the next birthday. This application helps to remember friends' or family member's birthday.",
+      "A single page application that records people's birthday.",
     screenshot: "./images/birthday-app.png",
     figma: null,
     link: "https://birthday-app-daniel.netlify.app/",
