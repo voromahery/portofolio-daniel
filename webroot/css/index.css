@@ -1,21 +1,21 @@
 @font-face {
   font-family: "myPoppins";
-  src: local("Poppins"), url("../fonts/poppins-normal.woff2"), url("../fonts/poppins-normal.woff");
+  src: local("Poppins"), url("./fonts/poppins-normal.woff2"), url("./fonts/poppins-normal.woff");
   font-weight: 400; }
 
 @font-face {
   font-family: "myPoppins";
-  src: local("Poppins"), url("../fonts/poppins-medium.woff2"), url("../fonts/poppins-medium.woff");
+  src: local("Poppins"), url("./fonts/poppins-medium.woff2"), url("./fonts/poppins-medium.woff");
   font-weight: 500; }
 
 @font-face {
   font-family: "myPoppins";
-  src: local("Poppins"), url("../fonts/poppins-semibold.woff2"), url("../fonts/poppins-semibold.woff");
+  src: local("Poppins"), url("./fonts/poppins-semibold.woff2"), url("./fonts/poppins-semibold.woff");
   font-weight: 600; }
 
 @font-face {
   font-family: "myPoppins";
-  src: local("Poppins"), url("../fonts/poppins-bold.woff2"), url("../fonts/poppins-bold.woff");
+  src: local("Poppins"), url("./fonts/poppins-bold.woff2"), url("./fonts/poppins-bold.woff");
   font-weight: 700; }
 
 body {
