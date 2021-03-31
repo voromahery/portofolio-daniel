@@ -603,7 +603,8 @@ section .common__container {
   margin: auto; }
 
 .projects__image {
-  width: 600px; }
+  width: 300px;
+  height: auto; }
 
 .more__projects a {
   display: flex;
@@ -679,7 +680,10 @@ section .common__container {
   .more__projects a {
     font-size: 13.6px; }
   .more__projects svg {
-    width: 11.9px; } }
+    width: 11.9px; }
+  .projects__image {
+    width: 400px;
+    height: auto; } }
 
 @media (min-width: 650px) {
   .section__projects--wrapper article {
@@ -703,6 +707,9 @@ section .common__container {
     font-size: 16px; }
   .project__link svg {
     width: 26.66px;
+    height: auto; }
+  .projects__image {
+    width: 600px;
     height: auto; } }
 
 @media (min-width: 750px) {

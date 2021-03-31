@@ -76,7 +76,8 @@
 }
 
 .projects__image {
-  width: 600px;
+  width: 300px;
+  height: auto
 }
 
 .more__projects a {
@@ -172,6 +173,11 @@
   .more__projects svg {
     width: 11.9px;
   }
+
+  .projects__image {
+    width: 400px;
+    height: auto
+  }
 }
 
 @media (min-width: $medium) {
@@ -211,6 +217,10 @@
   .project__link svg {
     width: 26.66px;
     height: auto;
+  }
+  .projects__image {
+    width: 600px;
+    height: auto
   }
 }
 
