@@ -69,7 +69,7 @@ abbr[title] {
   text-decoration: none; }
 
 img {
-  width: 100%; }
+  max-width: 100%; }
 
 button,
 a {
@@ -426,6 +426,9 @@ section .common__container {
 .about-me__title,
 .about-me__article--title {
   color: #fff; }
+
+.about-me__image {
+  width: auto; }
 
 .image__wrapper {
   position: relative;
