@@ -164,9 +164,11 @@
         <div class="common__container">
           <h2 class="about-me__title title">About me</h2>
           <article class="about-me__article">
-            <div class="image__wrapper">
-              <img src="./images/daniel.webp" alt="" class="about-me__image" />
-            </div>
+            <picture class="image__wrapper">
+              <source srcset="./images/daniel.webp"
+              media="(min-width: 800px)">
+              <img src="./images/daniel-sm.webp" alt="smiling-boy" class="about-me__image" />
+            </picture>
             <div class="about-me__article--wrapper">
               <h2 class="about-me__article--title">Who am I?</h2>
               <p class="about-me__article--paragraph paragraph">

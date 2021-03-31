@@ -428,10 +428,13 @@ section .common__container {
   color: #fff; }
 
 .about-me__image {
-  width: auto; }
+  width: 300px;
+  height: auto; }
 
 .image__wrapper {
   position: relative;
+  display: block;
+  max-width: fit-content;
   margin-bottom: calc(40px / 2); }
 
 .image__wrapper::before {
@@ -514,13 +517,19 @@ section .common__container {
     margin-right: 17px; }
   .skills__list--item::before {
     width: 6.8px;
-    height: 13.5px; } }
+    height: 13.5px; }
+  .about-me__image {
+    width: 600px;
+    height: auto; } }
 
 @media (min-width: 650px) {
   .skills__list--item {
-    font-size: 16px; } }
+    font-size: 16px; }
+  .about-me__image {
+    width: 640.75px;
+    height: auto; } }
 
-@media (min-width: 850px) {
+@media (min-width: 750px) {
   .about-me__article {
     display: flex;
     flex-direction: row;
@@ -528,7 +537,14 @@ section .common__container {
   .about-me__article--title {
     margin-top: 0; }
   .about-me__article--wrapper {
-    margin-left: 40px; } }
+    margin-left: 40px; }
+  .about-me__article--wrapper {
+    max-width: 50%; } }
+
+@media (min-width: 1100px) {
+  .about-me__image {
+    width: 700px;
+    height: auto; } }
 
 .section__projects .common__container {
   margin-top: calc(60px / 2);
@@ -707,7 +723,10 @@ section .common__container {
     font-size: 16px; }
   .project__link svg {
     width: 26.66px;
-    height: 26.66px; } }
+    height: 26.66px; }
+  .projects__image {
+    width: 640.76px;
+    height: auto; } }
 
 @media (min-width: 750px) {
   .projects__image {
@@ -719,8 +738,8 @@ section .common__container {
     margin-top: 40px;
     margin-bottom: 40px; }
   .projects__image {
-    width: 400px;
-    height: 400px; } }
+    width: 700px;
+    height: auto; } }
 
 .section__contact .common__container {
   margin-top: calc(60px / 2);

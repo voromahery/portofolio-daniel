@@ -12,11 +12,14 @@
 }
 
 .about-me__image {
-  width: auto
+  width: 300px;
+  height: auto;
 }
 
 .image__wrapper {
   position: relative;
+  display: block;
+  max-width: fit-content;
   margin-bottom: calc(40px / 2);
 }
 
@@ -120,15 +123,24 @@
     width: 6.8px;
     height: 13.5px;
   }
+
+  .about-me__image {
+    width: 600px;
+    height: auto;
+  }
 }
 
 @media (min-width: $medium) {
   .skills__list--item {
     font-size: 16px;
   }
+  .about-me__image {
+    width: 640.75px;
+    height: auto;
+  }
 }
 
-@media (min-width: 850px) {
+@media (min-width: $large) {
   .about-me__article {
     display: flex;
     flex-direction: row;
@@ -141,5 +153,16 @@
 
   .about-me__article--wrapper {
     margin-left: 40px;
+  }
+
+  .about-me__article--wrapper {
+    max-width: 50%;
+  }
+}
+
+@media (min-width: $extra-large) {
+  .about-me__image {
+    width: 700px;
+    height: auto;
   }
 }
