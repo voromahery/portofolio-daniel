@@ -699,7 +699,7 @@ section .common__container {
     width: 26.66px;
     height: auto; } }
 
-@media (min-width: 850px) {
+@media (min-width: 750px) {
   .projects__image {
     margin-top: 0;
     margin-bottom: 0; } }
@@ -808,6 +808,7 @@ section .common__container {
   cursor: pointer;
   color: #fff;
   border: none;
+  border-radius: 6px;
   background-color: #1b1d2a;
   width: 43px;
   height: 46px; }
