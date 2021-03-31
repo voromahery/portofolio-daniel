@@ -707,10 +707,7 @@ section .common__container {
     font-size: 16px; }
   .project__link svg {
     width: 26.66px;
-    height: auto; }
-  .projects__image {
-    width: 600px;
-    height: auto; } }
+    height: 26.66px; } }
 
 @media (min-width: 750px) {
   .projects__image {
@@ -720,7 +717,10 @@ section .common__container {
 @media (min-width: 1100px) {
   .projects {
     margin-top: 40px;
-    margin-bottom: 40px; } }
+    margin-bottom: 40px; }
+  .projects__image {
+    width: 600px;
+    height: auto; } }
 
 .section__contact .common__container {
   margin-top: calc(60px / 2);
