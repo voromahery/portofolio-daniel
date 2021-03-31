@@ -604,7 +604,7 @@ section .common__container {
 
 .projects__image {
   width: 300px;
-  height: auto; }
+  height: 300px; }
 
 .more__projects a {
   display: flex;
@@ -683,7 +683,7 @@ section .common__container {
     width: 11.9px; }
   .projects__image {
     width: 400px;
-    height: auto; } }
+    height: 400px; } }
 
 @media (min-width: 650px) {
   .section__projects--wrapper article {
@@ -719,8 +719,8 @@ section .common__container {
     margin-top: 40px;
     margin-bottom: 40px; }
   .projects__image {
-    width: 600px;
-    height: auto; } }
+    width: 400px;
+    height: 400px; } }
 
 .section__contact .common__container {
   margin-top: calc(60px / 2);
