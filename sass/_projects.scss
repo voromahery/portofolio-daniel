@@ -75,6 +75,10 @@
   margin: auto;
 }
 
+.projects__image {
+  width: 600px;
+}
+
 .more__projects a {
   @include flex-row;
   font-size: 12px;

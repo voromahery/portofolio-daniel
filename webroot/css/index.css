@@ -602,6 +602,9 @@ section .common__container {
   max-width: max-content;
   margin: auto; }
 
+.projects__image {
+  width: 600px; }
+
 .more__projects a {
   display: flex;
   flex-direction: row;
