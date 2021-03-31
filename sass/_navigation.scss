@@ -41,7 +41,7 @@
   max-height: 15px;
 }
 
-@media (min-width: 300px) {
+@media (min-width: $small) {
   .navigation {
     padding-top: 8px;
     padding-bottom: 8px;
@@ -59,7 +59,7 @@
   }
 }
 
-@media (min-width: 650px) {
+@media (min-width: $medium) {
   .navigation {
     position: unset;
     z-index: unset;

@@ -180,7 +180,7 @@
   animation-timing-function: cubic-bezier(0.15, 0.41, 0.69, 0.94);
 }
 
-@media (min-width: 300px) {
+@media (min-width: $small) {
   .masthead .common__container,
   .header .common__container {
     padding-left: 21px;
@@ -221,7 +221,7 @@
   }
 }
 
-@media (min-width: 650px) {
+@media (min-width: $medium) {
   .header .common__container,
   .masthead .common__container {
     @include tablet-inline-padding;
@@ -248,7 +248,7 @@
   }
 }
 
-@media (min-width: 1100px) {
+@media (min-width: $extra-large) {
   .header .common__container {
     @include desktop-inline-padding;
   }

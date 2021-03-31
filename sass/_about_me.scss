@@ -77,7 +77,7 @@
   margin-right: 4.25px;
 }
 
-@media (min-width: 300px) {
+@media (min-width: $small) {
   .section__about-me .common__container {
     @include section-margin;
   }
@@ -118,7 +118,7 @@
   }
 }
 
-@media (min-width: 650px) {
+@media (min-width: $medium) {
   .skills__list--item {
     font-size: 16px;
   }

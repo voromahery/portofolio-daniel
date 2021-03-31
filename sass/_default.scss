@@ -102,7 +102,7 @@ section .common__container {
   font-size: 13px;
 }
 
-@media (min-width: 300px) {
+@media (min-width: $small) {
   .title {
     @include title;
   }
@@ -117,7 +117,7 @@ section .common__container {
   }
 }
 
-@media (min-width: 650px) {
+@media (min-width: $medium) {
   section .common__container {
     @include tablet-inline-padding;
     @include section-desktop-margin;
@@ -132,7 +132,7 @@ section .common__container {
   }
 }
 
-@media (min-width: 1100px) {
+@media (min-width: $extra-large) {
   section .common__container {
     @include desktop-inline-padding;
   }

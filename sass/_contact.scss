@@ -54,7 +54,7 @@
   margin-bottom: calc(34px / 2);
 }
 
-@media (min-width: 300px) {
+@media (min-width: $small) {
   .section__contact .common__container {
     @include section-margin;
   }
@@ -80,7 +80,7 @@
   }
 }
 
-@media (min-width: 650px) {
+@media (min-width: $medium) {
   .contact__container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -95,7 +95,7 @@
   }
 }
 
-@media (min-width: 1100px) {
+@media (min-width: $extra-large) {
   .contact__container {
     grid-template-columns: repeat(3, 1fr);
   }
