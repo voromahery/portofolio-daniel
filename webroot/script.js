@@ -1,9 +1,34 @@
 const works = [
   {
+    title: "Birthday App",
+    description:
+      "A single page application that prevents the user from forgeting a birthday ever again! (Even if I haven't done that yet, of course) <br/> <br/> I built the foundation of this website using HTML and CSS, while most of the visual components are generated using JavaScript. To retrieve and store data I used a mixture of API fetching and local storage. <br/> <br/> By doing this project, I improved my skills at using multiple filters in unison as well as manipulating complex date formats. Overall, I am happy with the organised approach I used to tackle this project which enabled me to produce a highly satisfying result.",
+    screenshot: "./images/birthday-app.png",
+    screenshotMobile: "/images/",
+    figma: null,
+    link: "https://birthday-app-daniel.netlify.app/",
+    code: "https://github.com/voromahery/birthday-app",
+    date: "11/12/2020",
+    skill: ["Html5", "Css3", "Javascript"],
+  },
+  {
+    title: "Country quiz",
+    description:
+      "An application that can be used to learn about a country capital and its flag, this is useful for promoting your skills about a country.",
+    screenshot: "./images/country-quiz.png",
+    screenshotMobile: "/images/",
+    figma: "https://www.figma.com/file/Gw0ZNBbYN8asqFlZWy3jG1",
+    link: "https://country-quiz-daniel.netlify.app/",
+    code: "https://github.com/voromahery/country-quiz",
+    date: "12/11/2020",
+    skill: ["Css3", "React"],
+  },
+  {
     title: "Photograf",
     description:
-      "This website is suitable for a photographer who wants to his or her works to the world.",
+      "This website is suitable for photographers who want to show their work to the world.",
     screenshot: "./images/photograph.webp",
+    screenshotMobile: "",
     figma:
       "https://www.figma.com/file/QDZhke3UJVjXjNwFKqsWDR/Laaqiq-1-Portfolio-detail-Responsive-Copy",
     link: "https://voromahery.github.io/photograf/",
@@ -16,35 +41,14 @@ const works = [
     description:
       "A responsive homepage, which is the clone of the homepage of Edie.",
     screenshot: "./images/edie-homepage.webp",
+    screenshotMobile: "",
     figma:
       "https://www.figma.com/file/ahnGupP4JjTdVJDTRfMRF2/edie-homepage?node-id=0%3A1",
     link: "https://edie-homepage-daniel.netlify.app/",
     code: "https://github.com/voromahery/edie-homepage",
     date: "19/11/2020",
     skill: ["Html5", "Sass", "Css3"],
-  },
-  {
-    title: "Birthday App",
-    description:
-      "A single page application that records people's birthday.",
-    screenshot: "./images/birthday-app.png",
-    figma: null,
-    link: "https://birthday-app-daniel.netlify.app/",
-    code: "https://github.com/voromahery/birthday-app",
-    date: "11/12/2020",
-    skill: ["Html5", "Css3", "Javascript"],
-  },
-  {
-    title: "Country quiz",
-    description:
-      "An application that can be used to learn about a country capital and its flag, this is useful for promoting your skills about a country.",
-    screenshot: "./images/country-quiz.png",
-    figma: "https://www.figma.com/file/Gw0ZNBbYN8asqFlZWy3jG1",
-    link: "https://country-quiz-daniel.netlify.app/",
-    code: "https://github.com/voromahery/country-quiz",
-    date: "12/11/2020",
-    skill: ["Css3", "React"],
-  },
+  }
 ];
 
 const section = document.querySelector(".section__projects");
@@ -61,7 +65,13 @@ function myPortofolio() {
           <div class="section__projects--wrapper">
             <article>
                 <a href="${item.link}">
-                <img src=${item.screenshot} class="projects__image" alt="">
+                <picture>
+                  <source
+                  srcset=""
+                  media="(min-width: 800px)"
+                  />
+                  <img src=${item.screenshot} class="projects__image" alt="">
+                </picture>
                 </a>
                <div class="article__wrapper">
                   <h2 class="projects__title">${item.title}</h2>
