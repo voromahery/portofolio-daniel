@@ -2,31 +2,31 @@ const works = [
   {
     title: "Birthday App",
     description:
-      "A single page application that prevents the user from forgeting a birthday ever again! (Even if I haven't done that yet, of course) <br/> <br/> I built the foundation of this website using HTML and CSS, while most of the visual components are generated using JavaScript. To retrieve and store data I used a mixture of API fetching and local storage. <br/> <br/> By doing this project, I improved my skills at using multiple filters in unison as well as manipulating complex date formats. Overall, I am happy with the organised approach I used to tackle this project which enabled me to produce a highly satisfying result.",
+      "A single page application that prevents the user from forgetting a birthday ever again! (Even if I haven't done that yet, of course) <br/> <br/> I built the foundation of this website using HTML and CSS, while most of the visual components are generated using JavaScript. To retrieve and store data I used a mixture of API fetching and local storage. <br/> <br/> By doing this project, I improved my skills at using multiple filters in unison as well as manipulating complex date formats. Overall, I am happy with the organised approach I used to tackle this project which enabled me to produce a highly satisfying result.",
     screenshot: "./images/birthday-app.png",
     screenshotMobile: "/images/",
     figma: null,
     link: "https://birthday-app-daniel.netlify.app/",
     code: "https://github.com/voromahery/birthday-app",
     date: "11/12/2020",
-    skill: ["Html5", "Css3", "Javascript"],
+    skill: ["HTML", "CSS", "JavaScript"],
   },
   {
     title: "Country quiz",
     description:
-      "An application that can be used to learn about a country capital and its flag, this is useful for promoting your skills about a country.",
+      "This application can be used to learn about a country's capital and flag; this is useful for promoting your knowledge about a country and can help raise geographical awareness. <br/> <br/> In this project, I used React with global state management (useContext) which was necessary to simplify the code and keep it DRY. As my first major project with React, I put effort into making the code and components I wrote easy to understand and reuse. <br/> <br/> In this way, I solidified my knowledge of the context API, as well as fetching and randomising data from an API. While I am happy with the outcome, one thing to improve for my future projects would be to use compound components.",
     screenshot: "./images/country-quiz.png",
     screenshotMobile: "/images/",
     figma: "https://www.figma.com/file/Gw0ZNBbYN8asqFlZWy3jG1",
     link: "https://country-quiz-daniel.netlify.app/",
     code: "https://github.com/voromahery/country-quiz",
     date: "12/11/2020",
-    skill: ["Css3", "React"],
+    skill: ["CSS", "React"],
   },
   {
     title: "Photograf",
     description:
-      "This website is suitable for photographers who want to show their work to the world.",
+      "This website is suitable for photographers who want to show their work to the world.<br/> <br/> I built this with SASS, HTML and JavaScript. Completing this project enhanced my skills at using CSS frameworks such as SASS as well as applying functionality to an image slider with JavaScript.<br/> <br/> A similar project is the prototype website I built for a hypothetical software company called <a href='https://edie-homepage-daniel.netlify.app/'>Edie</a>",
     screenshot: "./images/photograph.webp",
     screenshotMobile: "",
     figma:
@@ -34,20 +34,7 @@ const works = [
     link: "https://voromahery.github.io/photograf/",
     code: "https://github.com/voromahery/photograf",
     date: "dd",
-    skill: ["Html5", "Sass", "Css3", "Javascript"],
-  },
-  {
-    title: "Edie homepage",
-    description:
-      "A responsive homepage, which is the clone of the homepage of Edie.",
-    screenshot: "./images/edie-homepage.webp",
-    screenshotMobile: "",
-    figma:
-      "https://www.figma.com/file/ahnGupP4JjTdVJDTRfMRF2/edie-homepage?node-id=0%3A1",
-    link: "https://edie-homepage-daniel.netlify.app/",
-    code: "https://github.com/voromahery/edie-homepage",
-    date: "19/11/2020",
-    skill: ["Html5", "Sass", "Css3"],
+    skill: ["HTML", "SASS", "JavaScript"],
   }
 ];
 
