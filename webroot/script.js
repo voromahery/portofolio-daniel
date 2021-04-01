@@ -54,6 +54,7 @@ function myPortofolio() {
                 <a href="${item.link}">
                 <picture>
                   <source
+                  class="projects__image"
                   srcset="${item.screenshot}"
                   media="(min-width: 800px)"
                   />
