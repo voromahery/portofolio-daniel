@@ -4,7 +4,7 @@ const works = [
     description:
       "A single page application that prevents the user from forgetting a birthday ever again! (Even if I haven't done that yet, of course) <br/> <br/> I built the foundation of this website using HTML and CSS, while most of the visual components are generated using JavaScript. To retrieve and store data I used a mixture of API fetching and local storage. <br/> <br/> By doing this project, I improved my skills at using multiple filters in unison as well as manipulating complex date formats. Overall, I am happy with the organised approach I used to tackle this project which enabled me to produce a highly satisfying result.",
     screenshot: "./images/birthday-app.png",
-    screenshotMobile: "/images/",
+    screenshotMobile: "./images/birthday-app-mobile.png",
     figma: null,
     link: "https://birthday-app-daniel.netlify.app/",
     code: "https://github.com/voromahery/birthday-app",
@@ -16,7 +16,7 @@ const works = [
     description:
       "This application can be used to learn about a country's capital and flag; this is useful for promoting your knowledge about a country and can help raise geographical awareness. <br/> <br/> In this project, I used React with global state management (useContext) which was necessary to simplify the code and keep it DRY. As my first major project with React, I put effort into making the code and components I wrote easy to understand and reuse. <br/> <br/> In this way, I solidified my knowledge of the context API, as well as fetching and randomising data from an API. While I am happy with the outcome, one thing to improve for my future projects would be to use compound components.",
     screenshot: "./images/country-quiz.png",
-    screenshotMobile: "/images/",
+    screenshotMobile: "./images/country-quiz-mobile.png",
     figma: "https://www.figma.com/file/Gw0ZNBbYN8asqFlZWy3jG1",
     link: "https://country-quiz-daniel.netlify.app/",
     code: "https://github.com/voromahery/country-quiz",
@@ -28,14 +28,14 @@ const works = [
     description:
       "This website is suitable for photographers who want to show their work to the world.<br/> <br/> I built this with SASS, HTML and JavaScript. Completing this project enhanced my skills at using CSS frameworks such as SASS as well as applying functionality to an image slider with JavaScript.<br/> <br/> A similar project is the prototype website I built for a hypothetical software company called <a href='https://edie-homepage-daniel.netlify.app/'>Edie</a>",
     screenshot: "./images/photograph.webp",
-    screenshotMobile: "",
+    screenshotMobile: "./images/photograf-mobile.webp",
     figma:
       "https://www.figma.com/file/QDZhke3UJVjXjNwFKqsWDR/Laaqiq-1-Portfolio-detail-Responsive-Copy",
     link: "https://voromahery.github.io/photograf/",
     code: "https://github.com/voromahery/photograf",
     date: "dd",
     skill: ["HTML", "SASS", "JavaScript"],
-  }
+  },
 ];
 
 const section = document.querySelector(".section__projects");
@@ -54,10 +54,10 @@ function myPortofolio() {
                 <a href="${item.link}">
                 <picture>
                   <source
-                  srcset=""
+                  srcset="${item.screenshot}"
                   media="(min-width: 800px)"
                   />
-                  <img src=${item.screenshot} class="projects__image" alt="">
+                  <img src=${item.screenshotMobile} class="projects__image" alt="">
                 </picture>
                 </a>
                <div class="article__wrapper">
