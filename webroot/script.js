@@ -4,7 +4,7 @@ const works = [
     description:
       "A single page application that prevents the user from forgetting a birthday ever again! (Even if I haven't done that yet, of course) <br/> <br/> I built the foundation of this website using HTML and CSS, while most of the visual components are generated using JavaScript. To retrieve and store data I used a mixture of API fetching and local storage. <br/> <br/> By doing this project, I improved my skills at using multiple filters in unison as well as manipulating complex date formats. Overall, I am happy with the organised approach I used to tackle this project which enabled me to produce a highly satisfying result.",
     screenshot: "./images/birthday-app.png",
-    screenshotMobile: "./images/birthday-app-mobile.png",
+    screenshotMobile: "./images/birthday-app-mobile.webp",
     figma: null,
     link: "https://birthday-app-daniel.netlify.app/",
     code: "https://github.com/voromahery/birthday-app",
