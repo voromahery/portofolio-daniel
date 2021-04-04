@@ -7,7 +7,7 @@
 - [Acknowledgements](#acknowledgements)
 
 ## [Acknowledgements](#acknowledgements)
-A page that displays some of the works I have done, feel free to visit this page to see those amazing works.
+A page that displays some of the works I have done, feel free to visit this page.
 
 ## Contact
 - Email: daniel.her@onja.org
