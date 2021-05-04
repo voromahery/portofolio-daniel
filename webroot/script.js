@@ -51,7 +51,7 @@ function myPortofolio() {
       return `
           <div class="section__projects--wrapper">
             <article>
-                <a href="${item.link}">
+                <a href="${item.link}" class="project__link">
                 <picture>
                   <source
                   class="projects__image"
