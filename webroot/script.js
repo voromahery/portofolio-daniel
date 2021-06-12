@@ -1,15 +1,15 @@
 const works = [
   {
-    title: 'Birthday App',
+    title: 'Ethereum Transaction',
     description:
-      "A single page application that prevents the user from forgetting a birthday ever again! (Even if I haven't done that yet, of course) <br/> <br/> I built the foundation of this website using HTML and CSS, while most of the visual components are generated using JavaScript. To retrieve and store data I used a mixture of API fetching and local storage. <br/> <br/> By doing this project, I improved my skills at using multiple filters in unison as well as manipulating complex date formats. Overall, I am happy with the organised approach I used to tackle this project which enabled me to produce a highly satisfying result.",
-    screenshot: './images/birthday-app.png',
-    screenshotMobile: './images/birthday-app-mobile.webp',
+      'This application displays the list of the ethereum transactions depending on the given wallet address and block.<br/ <br/>In this app, React is used to visualize the data on the page and useContext is used to manage the states. To retrieve data an API from Etherscan.io is used to get all the transactions. However, the token balance by the given date and wallet address is retrieved by using Web3.js.<br/> </br>By applying all of that, my knowledge in React is strengthened especially in using some helper libraries in React. Moreover, I acquired knowledge in using Web3.js and learned the basics about how blockchain works.',
+    screenshot: './images/ethereum-transaction.webp',
+    screenshotMobile: './images/ethereum-transaction.webp',
     figma: null,
-    link: 'http://birthday.daniel.onja.org/',
-    code: 'https://github.com/voromahery/birthday-app',
+    link: 'https://ethereum-transaction.netlify.app/',
+    code: 'https://github.com/voromahery/ethereum-transaction',
     date: '11/12/2020',
-    skill: ['HTML', 'CSS', 'JavaScript'],
+    skill: ['React', 'Web3.js'],
   },
   {
     title: 'Country quiz',
@@ -22,6 +22,18 @@ const works = [
     code: 'https://github.com/voromahery/country-quiz',
     date: '12/11/2020',
     skill: ['CSS', 'React'],
+  },
+  {
+    title: 'Birthday App',
+    description:
+      "A single page application that prevents the user from forgetting a birthday ever again! (Even if I haven't done that yet, of course) <br/> <br/> I built the foundation of this website using HTML and CSS, while most of the visual components are generated using JavaScript. To retrieve and store data I used a mixture of API fetching and local storage. <br/> <br/> By doing this project, I improved my skills at using multiple filters in unison as well as manipulating complex date formats. Overall, I am happy with the organised approach I used to tackle this project which enabled me to produce a highly satisfying result.",
+    screenshot: './images/birthday-app.png',
+    screenshotMobile: './images/birthday-app-mobile.webp',
+    figma: null,
+    link: 'http://birthday.daniel.onja.org/',
+    code: 'https://github.com/voromahery/birthday-app',
+    date: '11/12/2020',
+    skill: ['HTML', 'CSS', 'JavaScript'],
   },
   {
     title: 'Photograf',
