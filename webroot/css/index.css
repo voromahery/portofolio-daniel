@@ -421,6 +421,9 @@ section .common__container {
 .about-me__article--title {
   color: #fff; }
 
+.section__about-me a {
+  color: #f1b631; }
+
 .image__wrapper {
   position: relative;
   display: block;
@@ -428,7 +431,7 @@ section .common__container {
   margin-bottom: calc(40px / 2); }
 
 .image__wrapper::before {
-  content: "";
+  content: '';
   position: absolute;
   z-index: -1;
   width: 100%;
@@ -477,7 +480,7 @@ section .common__container {
   margin-right: calc(17px / 2); }
 
 .skills__list--item::before {
-  content: "";
+  content: '';
   background-image: url("../images/arrow.svg");
   background-repeat: no-repeat;
   width: 6.8px;

@@ -1,4 +1,4 @@
-@import "./variable";
+@import './variable';
 
 .section__about-me .common__container {
   margin-top: calc(60px / 2);
@@ -11,10 +11,9 @@
   color: $title-color;
 }
 
-// .about-me__image {
-//   width: 300px;
-//   height: auto;
-// }
+.section__about-me a {
+  color: $primary-color;
+}
 
 .image__wrapper {
   position: relative;
@@ -24,7 +23,7 @@
 }
 
 .image__wrapper::before {
-  content: "";
+  content: '';
   position: absolute;
   z-index: -1;
   width: 100%;
@@ -76,8 +75,8 @@
 }
 
 .skills__list--item::before {
-  content: "";
-  background-image: url("#{$image-path}/arrow.svg");
+  content: '';
+  background-image: url('#{$image-path}/arrow.svg');
   background-repeat: no-repeat;
   width: 6.8px;
   height: 13.5px;
