@@ -421,9 +421,6 @@ section .common__container {
 .about-me__article--title {
   color: #fff; }
 
-.section__about-me a {
-  color: #f1b631; }
-
 .image__wrapper {
   position: relative;
   display: block;
