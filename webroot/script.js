@@ -12,6 +12,19 @@ const works = [
     skill: ['React', 'Web3.js'],
   },
   {
+    title: 'Learn Malagasy App',
+    description:
+     `This project is built with react native. It is an application that helps people to learn both English and Malagasy. Find it on <a href="https://play.google.com/store/apps/details?id=com.learngasy&hl=en&gl=US">google play store</a> and start learning!<br/><br/>
+     By teaming with three other developers, I built some UI and components, using a storybook in order to test the components. Redux is used to manage the state in order to make the code maintainable and easy to work with other people.`,
+    screenshot: './images/learn-malagasy.webp',
+    screenshotMobile: './images/learn-malagasy-mobile.webp',
+    figma: 'https://www.figma.com/file/EjoxoV3NBCmOHSQHni7hU2/Malagasy-App?node-id=0%3A1',
+    link: 'https://play.google.com/store/apps/details?id=com.learngasy&hl=en&gl=US',
+    code: 'https://github.com/onja-org/malagasy-rn-Mercury',
+    date: '25/06/2021',
+    skill: ['React Native'],
+  },
+  {
     title: 'Country quiz',
     description:
       "This application can be used to learn about a country's capital and flag; this is useful for promoting your knowledge about a country and can help raise geographical awareness. <br/> <br/> In this project, I used React with global state management (useContext) which was necessary to simplify the code and keep it DRY. As my first major project with React, I put effort into making the code and components I wrote easy to understand and reuse. <br/> <br/> In this way, I solidified my knowledge of the context API, as well as fetching and randomising data from an API. While I am happy with the outcome, one thing to improve for my future projects would be to use compound components.",
